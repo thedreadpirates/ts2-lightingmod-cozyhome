@@ -1,0 +1,23 @@
+#### LIGHTING CHEATS ####
+ignoreErrors true
+boolProp UseShaders true
+boolProp specHighlights true
+boolProp floorAndWallNormalMapping true
+boolProp bumpMapping true
+boolProp skipTangentsInVertexData false      #false for bumpmapping!
+uintProp optionLightingQuality 3             #These two lines set the lighting option and
+uintProp LightingQuality 3                   #the lighting level to MAX (as required)
+boolProp gpuCompositing true
+floatProp geomBoneInfluenceThreshold 0.01
+floatProp geomPerBoneBoundBlendWeightThreshold 0.9
+boolProp geomCheckGeomDataIntegrity false
+boolProp geomGenerateTangentSpaceSxT true
+##########################
+
+#### LIGHTING ALIASES ####
+alias sld "setlotlightingfile clear" "Default Lighting" "Default Lighting - front"
+alias sldf "setlotlightingfile clear" "Default Lighting" "Default Lighting - front"
+alias sldb "setlotlightingfile Lighting_Back.txt" "Default Lighting - Back" "Default Lighting - Back"
+alias sldl "setlotlightingfile Lighting_Left.txt" "Default Lighting - Left" "Default Lighting - Left"
+alias sldr "setlotlightingfile Lighting_Right.txt" "Default Lighting - Right" "Default Lighting - Right"
+##########################

@@ -1,0 +1,53 @@
+######### LIGHTS ####################
+
+######## Ceiling Lights ###############
+
+
+create CeilingFive(lightingCeilingBaskis_light)
+create SoftWhite(lightingCeilingBaskis_light)
+
+create CeilingFive(lightingCeilingLyra_light)
+create SoftWhite(lightingCeilingLyra_light)
+
+create CeilingFive(lightingCeilingSphereRegolit_light)
+create SoftAmber(lightingCeilingSphereRegolit_light)
+
+########### Floor lights ############
+
+create Five(lightingFloorOrgelVreten_light)
+create SoftAmber(lightingFloorOrgelVreten_light)
+
+create Five(lightingFloorMarek_light)
+create SoftAmber(lightingFloorMarek_light)
+
+create Five(lightingFloorStorm_light)
+create SoftAmber(lightingFloorStorm_light)
+
+######### OUTDOOR lights ##########
+
+######### Table lights ###########
+
+create TableFive(lightingTableOrgel_light)
+create SoftAmber(lightingTableOrgel_light)
+
+create TableFive(lightingTableSkimra_light)
+create SoftAmber(lightingTableSkimra_light)
+
+create TableFive(lightingTableMylonit_light)
+create SoftAmber(lightingTableMylonit_light)
+
+create TableFour(lightingTableLampan_light)
+create SoftAmber(lightingTableLampan_light)
+
+create TableFour(lightingTableKila_light)
+create SoftWhite(lightingTableKila_light)
+
+create TeaLights(lightingTableTealightIkeaPS_light)
+create SoftFire(lightingTableTealightIkeaPS_light)
+
+######### Wall lights ##########
+
+######## Special Objects ###############
+
+create Six(tvCenterExpedit_light)
+create SoftBlue(tvCenterExpedit_light)
