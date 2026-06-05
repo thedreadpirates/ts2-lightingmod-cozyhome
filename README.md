@@ -119,7 +119,7 @@ The Lights folder is located under `TSData\Res\Lights` under each Game Installat
 
 ## **DOWNLOAD INSTRUCTIONS**
 
-Download and unzip the latest release from the [Releases](https://github.com/thedreadpirates/ts2-lighting-mod-uc/releases) page.
+Download and unzip the latest release from the [Releases](https://github.com/thedreadpirates/ts2-lightingmod-cozyhome/releases) page.
 
 ## **INSTALLATION INSTRUCTIONS**
 
