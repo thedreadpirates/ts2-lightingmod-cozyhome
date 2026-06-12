@@ -72,9 +72,9 @@ enddef
 ################# BEST USED FOR INDOOR FLOOR LIGHTS ##########################################
 
 define FloodLight(lightName)#for flood light
-	lightAttribOverride &lightName intensity 1.7
+	lightAttribOverride &lightName intensity 1.6
 	lightAttribOverride &lightName falloffRate 1
-	lightAttribOverride &lightName diffusionSourceIntensity 1.5
+	lightAttribOverride &lightName diffusionSourceIntensity 1.4
 	lightAttribOverride &lightName diffusionSourceMin  (0,1)
 	lightAttribOverride &lightName diffusionSourceMax (0,2)
 	lightAttribOverride &lightName diffusionSourceFalloff 1.0
@@ -87,13 +87,13 @@ define FloodLight(lightName)#for flood light
 enddef
 
 define Six(lightName)
-	lightAttribOverride &lightName intensity 1.6
+	lightAttribOverride &lightName intensity 1.5
 	lightAttribOverride &lightName falloffRate .8
-	lightAttribOverride &lightName diffusionSourceIntensity 1.6
+	lightAttribOverride &lightName diffusionSourceIntensity 1.5
 	lightAttribOverride &lightName diffusionSourceMin  (0,0)
 	lightAttribOverride &lightName diffusionSourceMax (0,0)
 	lightAttribOverride &lightName diffusionSourceFalloff 1
-	lightAttribOverride &lightName diffusionSourceWallIntensityScale 1.4
+	lightAttribOverride &lightName diffusionSourceWallIntensityScale 1.3
 	lightAttribOverride &lightName diffusionSourceFloorIntensityScale 1
 	lightAttribOverride &lightName diffusionSourceIsDirectional 1
 	lightAttribOverride &lightName diffusionSourceDirectionalFalloff 0
@@ -102,9 +102,9 @@ define Six(lightName)
 enddef
 
 define Five(lightName)
-	lightAttribOverride &lightName intensity 1.4
+	lightAttribOverride &lightName intensity 1.3
 	lightAttribOverride &lightName falloffRate 1
-	lightAttribOverride &lightName diffusionSourceIntensity 1.4
+	lightAttribOverride &lightName diffusionSourceIntensity 1.3
 	lightAttribOverride &lightName diffusionSourceMin  (0,0)
 	lightAttribOverride &lightName diffusionSourceMax (0,0)
 	lightAttribOverride &lightName diffusionSourceFalloff 1
@@ -194,13 +194,13 @@ enddef
 
 ################# BEST USED FOR WALL LIGHTS ##########################################
 define WallSix(lightName)
-	lightAttribOverride &lightName intensity 1.6
+	lightAttribOverride &lightName intensity 1.5
 	lightAttribOverride &lightName falloffRate 1
-	lightAttribOverride &lightName diffusionSourceIntensity 1.4
+	lightAttribOverride &lightName diffusionSourceIntensity 1.3
 	lightAttribOverride &lightName diffusionSourceMin  (0,0)
 	lightAttribOverride &lightName diffusionSourceMax (0,-.5)
 	lightAttribOverride &lightName diffusionSourceFalloff 1.1
-	lightAttribOverride &lightName diffusionSourceWallIntensityScale 2.0
+	lightAttribOverride &lightName diffusionSourceWallIntensityScale 1.8
 	lightAttribOverride &lightName diffusionSourceFloorIntensityScale 1
 	lightAttribOverride &lightName diffusionSourceIsDirectional 0
 	lightAttribOverride &lightName diffusionSourceDirectionalFalloff 0
@@ -211,11 +211,11 @@ enddef
 define WallFive(lightName)
 	lightAttribOverride &lightName intensity 1.4
 	lightAttribOverride &lightName falloffRate 1
-	lightAttribOverride &lightName diffusionSourceIntensity 1.4
+	lightAttribOverride &lightName diffusionSourceIntensity 1.3
 	lightAttribOverride &lightName diffusionSourceMin  (0,0)
 	lightAttribOverride &lightName diffusionSourceMax (0,-.5)
 	lightAttribOverride &lightName diffusionSourceFalloff 1
-	lightAttribOverride &lightName diffusionSourceWallIntensityScale 1.8
+	lightAttribOverride &lightName diffusionSourceWallIntensityScale 1.6
 	lightAttribOverride &lightName diffusionSourceFloorIntensityScale 1
 	lightAttribOverride &lightName diffusionSourceIsDirectional 0
 	lightAttribOverride &lightName diffusionSourceDirectionalFalloff 0
@@ -230,7 +230,7 @@ define WallFour(lightName)
 	lightAttribOverride &lightName diffusionSourceMin  (0,0)
 	lightAttribOverride &lightName diffusionSourceMax (0,-.5)
 	lightAttribOverride &lightName diffusionSourceFalloff 1.4
-	lightAttribOverride &lightName diffusionSourceWallIntensityScale 1.6
+	lightAttribOverride &lightName diffusionSourceWallIntensityScale 1.4
 	lightAttribOverride &lightName diffusionSourceFloorIntensityScale 1
 	lightAttribOverride &lightName diffusionSourceIsDirectional 0
 	lightAttribOverride &lightName diffusionSourceDirectionalFalloff 0
@@ -239,7 +239,7 @@ define WallFour(lightName)
 enddef
 
 define WallFourClam(lightName)
-	lightAttribOverride &lightName intensity 1.1
+	lightAttribOverride &lightName intensity 1.2
 	lightAttribOverride &lightName falloffRate 1
 	lightAttribOverride &lightName diffusionSourceIntensity 1.2
 	lightAttribOverride &lightName diffusionSourceMin  (0,0)
@@ -254,13 +254,13 @@ define WallFourClam(lightName)
 enddef
 
 define WallThree(lightName)
-	lightAttribOverride &lightName intensity 1.1
+	lightAttribOverride &lightName intensity 1.0
 	lightAttribOverride &lightName falloffRate 1
-	lightAttribOverride &lightName diffusionSourceIntensity 1.2
+	lightAttribOverride &lightName diffusionSourceIntensity 1.1
 	lightAttribOverride &lightName diffusionSourceMin  (0,0)
 	lightAttribOverride &lightName diffusionSourceMax (0,-.5)
 	lightAttribOverride &lightName diffusionSourceFalloff 2
-	lightAttribOverride &lightName diffusionSourceWallIntensityScale 1.3
+	lightAttribOverride &lightName diffusionSourceWallIntensityScale 1.2
 	lightAttribOverride &lightName diffusionSourceFloorIntensityScale 1
 	lightAttribOverride &lightName diffusionSourceIsDirectional 0
 	lightAttribOverride &lightName diffusionSourceDirectionalFalloff 0
@@ -352,7 +352,7 @@ define CeilingCanister(lightName)
 	lightAttribOverride &lightName diffusionSourceMin  (-0,-0)
 	lightAttribOverride &lightName diffusionSourceMax (0,0)
 	lightAttribOverride &lightName diffusionSourceFalloff 1
-	lightAttribOverride &lightName diffusionSourceWallIntensityScale 1.44
+	lightAttribOverride &lightName diffusionSourceWallIntensityScale 1.4
 	lightAttribOverride &lightName diffusionSourceFloorIntensityScale 1
 	lightAttribOverride &lightName diffusionSourceIsDirectional 0
 	lightAttribOverride &lightName diffusionSourceDirectionalFalloff 0
@@ -363,13 +363,13 @@ enddef
 ################# BEST USED FOR TABLE LIGHTS ##########################################
 
 define TableSix(lightName)
-	lightAttribOverride &lightName intensity 1.65
+	lightAttribOverride &lightName intensity 1.5
 	lightAttribOverride &lightName falloffRate 1.1
-	lightAttribOverride &lightName diffusionSourceIntensity 1.5
+	lightAttribOverride &lightName diffusionSourceIntensity 1.4
 	lightAttribOverride &lightName diffusionSourceMin  (0,0)
 	lightAttribOverride &lightName diffusionSourceMax (0,0)
 	lightAttribOverride &lightName diffusionSourceFalloff .8
-	lightAttribOverride &lightName diffusionSourceWallIntensityScale 1.4
+	lightAttribOverride &lightName diffusionSourceWallIntensityScale 1.3
 	lightAttribOverride &lightName diffusionSourceFloorIntensityScale 1
 	lightAttribOverride &lightName diffusionSourceIsDirectional 0
 	lightAttribOverride &lightName diffusionSourceDirectionalFalloff 0
@@ -378,7 +378,7 @@ enddef
 define TableFive(lightName)
 	lightAttribOverride &lightName intensity 1.4
 	lightAttribOverride &lightName falloffRate 1.0
-	lightAttribOverride &lightName diffusionSourceIntensity 1.58
+	lightAttribOverride &lightName diffusionSourceIntensity 1.38
 	lightAttribOverride &lightName diffusionSourceMin  (0,0)
 	lightAttribOverride &lightName diffusionSourceMax (0,0)
 	lightAttribOverride &lightName diffusionSourceFalloff .7
