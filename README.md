@@ -7,6 +7,7 @@
    * [**INDOOR LIGHTING CONFIGURATION**](#indoor-lighting-configuration)
    * [**TIME OF DAY & SEASONS CONFIGURATION**](#time-of-day--seasons-configuration)
    * [**LIGHTING DIRECTION**](#lighting-direction)
+   * [**WORLD LIT BY FIRE**](#world-lit-by-fire)
    * [**GAME INSTALLATION FOLDERS**](#game-installation-folders)
       + [**Ultimate Collection**](#ultimate-collection)
       + [**Legacy Collection**](#legacy-collection)
@@ -80,6 +81,15 @@ There's an option for you to change the lighting direction of the lot depending 
 | ![Image](assets/previews/ch_ld_front.png)<br/>**Front** | ![Image](assets/previews/ch_ld_right.png)<br/>**Right** |
 | ![Image](assets/previews/ch_ld_back.png)<br/>**Back**   | ![Image](assets/previews/ch_ld_left.png)<br/>**Left**   |
 
+### WORLD LIT BY FIRE
+
+For those who play games where white lighting isn't desirable, you can switch to World Lit by Fire mode using one cheat code.
+
+|                                                          |                                                                 |
+|----------------------------------------------------------|-----------------------------------------------------------------|
+| ![Image](assets/previews/ch_default.png)<br/>**Default** | ![Image](assets/previews/ch_wlbf.png)<br/>**World Lit by Fire** |
+
+
 ## **GAME INSTALLATION FOLDERS**
 
 > The way the lighting mod is structured that unlike the vanilla lighting, where there's a `Lighting.txt` and `EPXLighting.nlo` files (sometimes, like in the case for Nightlife, multiple of them) for each EP is that for most of the EPs, every single NLO file is empty except for Base Game (which contains most of the lighting configuration), and the latest EP, which in this case is Mansion and Garden Stuff (where lighting direction controls reside)
@@ -141,15 +151,16 @@ These steps assume that you have already extracted the files to an accessible lo
 
 5. Copy the lines inside the `userStartup.cheat` file provided to your `userStartup.cheat` if you have the file, otherwise copy the userStartup.cheat provided to your `Documents\EA Games\The Sims 2\Config` folder, if you don’t.
 
-6. Copy the contents of the folder labeled 4.0 to your Downloads folder. These contain the fixed Store lights.
+6. Copy the contents of the folder labeled 4.0 to your Downloads folder. These contain the fixed Store lights as well as the required night light map replacements for both lot and neighborhood lighting.
 
 ## **SWITCHING LIGHTING DIRECTIONS**
 
 To switch lighting directions (Back, Left, Right), type the following cheats:
 
-| **Lighting Mod**     | **Front (default)** | **Back** | **Left** | **Right** |
-|----------------------|---------------------|----------|----------|-----------|
-| Cozy Home (default)  | `sld` or `sldf`     | `sldb`   | `sldl`   | `sldr`    |
+| **Lighting Mod**    | **Front (default)** | **Back** | **Left** | **Right** |
+|---------------------|---------------------|----------|----------|-----------|
+| Cozy Home (default) | `sld` or `sldf`     | `sldb`   | `sldl`   | `sldr`    |
+| World Lit by Fire   | `slw` or `slwf`     | `slwb`   | `slwl`   | `slwr`    |
 
 
 ## **UPDATING INSTRUCTIONS:**
@@ -182,7 +193,14 @@ alias sldf "setlotlightingfile clear" "Default Lighting" "Default Lighting - fro
 alias sldb "setlotlightingfile Lighting_Back.txt" "Default Lighting - Back" "Default Lighting - Back"
 alias sldl "setlotlightingfile Lighting_Left.txt" "Default Lighting - Left" "Default Lighting - Left"
 alias sldr "setlotlightingfile Lighting_Right.txt" "Default Lighting - Right" "Default Lighting - Right"
+
+alias slw "setlotlightingfile Lighting_WLBF.txt" "a world lit by fire" "A World Lit by Fire - front"
+alias slwf "setlotlightingfile Lighting_WLBF.txt" "a world lit by fire" "A World Lit by Fire - front"
+alias slwb "setlotlightingfile Lighting_WLBF_Back.txt" "a world lit by fire - Back" "A World Lit by Fire - Back"
+alias slwl "setlotlightingfile Lighting_WLBF_Left.txt" "a world lit by fire - Left" "A World Lit by Fire - Left"
+alias slwr "setlotlightingfile Lighting_WLBF_Right.txt" "a world lit by fire - Right" "A World Lit by Fire - Right"
 ##########################
+
 ```
 
 ## **UNINSTALLATION INSTRUCTIONS**
@@ -226,6 +244,8 @@ setf roomLightingType 5
 
 First two I highly recommend. The others are nice to have.
 
+- [Improved Lot Skirt Shader](https://www.tumblr.com/christaskyy/819029196325191680/ts2-improved-lot-skirt-shader-wip): makes lot skirts in TS2 looking like neighborhood terrain
+- [Improved Water Mod](https://www.tumblr.com/spockthewok/818878027669864448/ts2-water-mod-update?source=share): Fixes mirror reflections and improves on the neighborhood water reflections
 - [Accurate Neighborhood Terrain Lighting](https://modthesims.info/d/654677/accurate-neighborhood-terrain-lighting.html): Matches neighborhood lighting with lot lighting. Use the versions suffixed with “-lightingremedy”
 - All of PineappleForest's [light fixes](https://pforestsims.tumblr.com/tagged/ts2%20object%20fixes): The lighting changes were made with these fixes in mind.
 - [Blue Snow Fix](https://dreadpirate.tumblr.com/post/179182314487/blue-snow-no-more-shader-fixes-ive-included): Winter snow at night is blue. Very blue. This fixes it. If you want to use some water mods or roof shader mods, options are also available. I use EA roofs and Voeille's lot and neighborhood water
@@ -246,3 +266,4 @@ First two I highly recommend. The others are nice to have.
 - HugeLunatic for the much better M&G chandelier fix
 - Hook, for the lighting direction changes
 - @justmiha97 for some pointers on the portal lighting for dusk and dawn and some ideas for the room lighting
+- @christaskyy for the Lot Skirt shader, which allowed me to finally match the lighting in lot skirt and boundaries

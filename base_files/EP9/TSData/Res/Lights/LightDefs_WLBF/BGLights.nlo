@@ -1,0 +1,190 @@
+############ Table Lights ########################
+
+create TableThree(lightingTableLoftShoji_light)
+create SoftFire(lightingTableLoftShoji_light) # Shoji
+
+create bigBulb(lightingTableBigBulbRed_light)
+create SoftRed(lightingTableBigBulbRed_light) # pink bulb
+
+create bigBulb(lightingTableBigBulbGreen_light)
+create SoftGreen(lightingTableBigBulbGreen_light) # green bulb
+
+create bigBulb(lightingTableBigBulb_light)  #Blue one
+create SoftBlue(lightingTableBigBulb_light) # blue bulb
+
+create TableThree(lightingTableCentralAsian1_light)
+create SoftFire(lightingTableCentralAsian1_light) # GentleGlow
+
+create TableFour(lightingTableCentralAsian2_light)
+create SoftFire(lightingTableCentralAsian2_light) # Dynasty Enlightenment
+
+create TableFour(lightingTableClubLamp_light)
+create SoftFire(lightingTableClubLamp_light) # Lunatech
+
+create TableFour(lightingTableColonial1_light)
+create SoftFire(lightingTableColonial1_light) # Founding Fathers - formerly broken
+
+create TableFour(lightingTableColonial2_light)
+create SoftFire(lightingTableColonial2_light) # Whodunnit
+
+create TableFour(lightingTableDesigner_light)
+create SoftFire(lightingTableDesigner_light) # Ilistara
+
+create TableThree(lightingTableMoroccan_light)
+create SoftFire(lightingTableMoroccan_light) # Absolutely Nothing Special
+
+create TableFour(lightingTableQuaint_light)
+create SoftFire(lightingTableQuaint_light) # Social Climbing Ivy
+
+create TableFour(lightingTableValue1_light)
+create SoftFire(lightingTableValue1_light) # Pix Arm (desk lamp)
+
+create TableThree(lightingTableValue2_light)
+create SoftFire(lightingTableValue2_light) # Watt Is It (small bedside lamp)
+
+create TableThree(lightingTableArtNouveau_light)
+create SoftFire(lightingTableArtNouveau_light) # Inner Light
+
+
+############ FLOOR LIGHTS #########################
+
+create Five(lightingFloorClubLampSwingArm_light)
+create SoftFire(lightingFloorClubLampSwingArm_light) # Light Orbiter
+
+create Five(lightingFloorClubLampTorch_light)
+create SoftFire(lightingFloorClubLampTorch_light) # Burnished Blaze
+
+create Five(lightingFloorLoftLamp_light)
+create SoftFire(lightingFloorLoftLamp_light) # Tulip
+
+create Four(lightingFloorQuaint_light)
+create SoftFire(lightingFloorQuaint_light) # Social Climbing Ivy
+
+create Four(lightingFloorDesigner_light)
+create SoftFire(lightingFloorDesigner_light)
+
+create Four(lightingFloorMoroccan_light)
+create SoftFire(lightingFloorMoroccan_light) # Tornado
+
+create FloodLight(lightingFloorValue_light)
+create SoftFire(lightingFloorValue_light) # Thrice As Nice
+
+create Five(lightingFloorUM_light)
+create SoftBlue(lightingFloorUM_light) # Rave Against The Machine
+
+
+############ WALL LIGHTS ######################
+
+create WallFourClam(wallDeckSconce_point)
+create SoftFire(wallDeckSconce_point) # Almost Deco
+
+create WallFourClam(lightingWallClubSconce_light)
+create SoftFire(lightingWallClubSconce_light) # Luminescence
+
+create WallFour(lightingWallSconceWave_light)
+create SoftFire(lightingWallSconceWave_light) # GaulleVanizer
+
+create WallFour(lightingWallArtNouveau_light)
+create SoftFire(lightingWallArtNouveau_light) # Illuminating Angles
+
+create WallFourClam(lightingWallSconceClamshell_light)
+create SoftFire(lightingWallSconceClamshell_light) # Clamshell
+
+create WallFourClam(lightinglWallQuaint_light)
+create SoftFire(lightinglWallQuaint_light) # Wall Flowers
+
+create WallFour(lightingWallValue_light)
+create SoftFire(lightingWallValue_light) # Basically Bare Bulb (lightbulb)
+
+create WallFour(lightingWallValue2_light)
+create PastelBlue(lightingWallValue2_light) # Prisoner
+
+create WallFourClam(lightingWallMoroccan_light)
+create SoftFire(lightingWallMoroccan_light) # Antique Metal Sconce
+
+create WallFour(lightingWallColonial_light)
+create SoftFire(lightingWallColonial_light) # Antebellum
+
+
+############ CEILING LIGHTS ######################
+
+create CeilingSix(lightingCeilingChandelierModern_light)  
+create SoftFire(lightingCeilingChandelierModern_light)
+
+create CeilingSix(lightingCeilingPaperShade_bulb) 
+create SoftFire(lightingCeilingPaperShade_bulb) 
+
+create CeilingCanister(lightingCeilingCanister_light)
+create SoftFire(lightingCeilingCanister_light)
+
+create CeilingSix(lightingCeilingClubGlass_light)
+create SoftFire(lightingCeilingClubGlass_light)
+
+create CeilingFive(lightingCeilingArtNouveau_light)
+create SoftFire(lightingCeilingArtNouveau_light)
+
+create CeilingSix(lightingCeilingDesigner_light)  
+create SoftFire(lightingCeilingDesigner_light) 
+
+create CeilingFive(lightingCeilingCentralAsian_light) 
+create SoftFire(lightingCeilingCentralAsian_light)
+
+create CeilingFive(lightingCeilingMoroccan_light)
+create SoftFire(lightingCeilingMoroccan_light)
+
+create CeilingFive(lightingCeilingQuaint_light)
+create SoftFire(lightingCeilingQuaint_light)
+
+create CeilingSix(lightingCeilingValue_light)
+create SoftFire(lightingCeilingValue_light)
+
+create CeilingFive(lightingCeilingHangingFluorescent_light)
+create SoftFire(lightingCeilingHangingFluorescent_light)
+
+
+############ OUTDOOR LIGHTS #######################
+
+create Zero(streetlightTriple_left)
+create Zero(streetlightTriple_right)
+create Nine(streetlightTriple_middle)
+create SoftFire(streetlightTriple_middle)
+
+create Ten(lightingStreetlight_light)
+create SoftWhite(lightingStreetlight_light)
+
+create Ten(lightingStreetlightWooden_light)
+create SoftWhite(lightingStreetlightWooden_light)
+
+create Seven(gardenUplight)
+lightAttribOverride gardenUplight coneAngle 35
+lightAttribOverride gardenUplight conePenumbra 25
+create SoftWhite(gardenUplight)
+
+create Seven(gardenUplight_tree)
+lightAttribOverride gardenUplight_tree diffusionSourceIntensity 0
+lightAttribOverride gardenUplight_tree falloffRate 0.4
+create SoftWhite(gardenUplight_tree)
+
+create Seven(lightingFloorGardenBollard_light)
+create SoftWhite(lightingFloorGardenBollard_light)
+
+create Seven(lightingFloorGardenTier_light)
+create SoftWhite(lightingFloorGardenTier_light)
+
+create Six(lightingFenceCentralAsian_light)
+create SoftFire(lightingFenceCentralAsian_light) # Little House Lantern
+
+create Eight(lightingFencePostValue_light)
+create SoftWhite(lightingFencePostValue_light)
+
+create Eight(lightingFenceBrickWallLamp_light)
+create SoftAmber(lightingFenceBrickWallLamp_light) # Secure Sentinel
+
+create Six(deckPostLamp_point)
+create SoftFire(deckPostLamp_point)
+
+create Zero(deckPostLamp_spot)
+create SoftWhite(deckPostLamp_spot)
+
+create Six(phoneBooth_light)
+create SoftWhite(phoneBooth_light)
