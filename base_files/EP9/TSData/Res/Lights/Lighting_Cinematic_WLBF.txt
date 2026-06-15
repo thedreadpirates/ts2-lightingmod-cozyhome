@@ -1,0 +1,23 @@
+####################################################
+# Lighting Manager settings
+####################################################
+ignoreErrors true
+
+sinclude "Lighting_Cinematic.txt"
+
+# BG Lights
+sinclude "LightDefs_Cinematic/_WLBF/BGLights.nlo"
+
+# EP Lights
+sinclude "LightDefs_Cinematic/_WLBF/EP1Lights.nlo"
+sinclude "LightDefs_Cinematic/_WLBF/EP2Lights.nlo"
+sinclude "LightDefs_Cinematic/_WLBF/EP4Lights.nlo"
+sinclude "LightDefs_Cinematic/_WLBF/EP5Lights.nlo"
+sinclude "LightDefs_Cinematic/_WLBF/EP6Lights.nlo"
+sinclude "LightDefs_Cinematic/_WLBF/SP1Lights.nlo"
+sinclude "LightDefs_Cinematic/_WLBF/SP6Lights.nlo"
+sinclude "LightDefs_Cinematic/_WLBF/EP9Lights.nlo"
+
+####################################################
+# DO NOT DELETE THIS FILE!
+####################################################

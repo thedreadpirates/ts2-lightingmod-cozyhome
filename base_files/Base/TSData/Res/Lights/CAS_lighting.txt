@@ -1,8 +1,6 @@
 
 ############ CAS LIGHTS ######################
 
-
-
 define Halogen(lightName)
 	lightAttribOverride &lightName  intensity 0
 	lightAttribOverride &lightName  color (1.0, 0.93, 0.75)
@@ -66,7 +64,6 @@ lightAttribOverride CASFamilyArea_rfill9 falloffRate .15
 lightAttribOverride CASFamilyArea_rfill9 diffusionSourceIntensity 0
 lightAttribOverride CASFamilyArea_rfill9 coneAngle 120
 
-
 lightAttribOverride CASFamilyArea_bouncelight8 intensity .125
 
 lightAttribOverride CASPodiumArea_podiumKey7 intensity 1.5
@@ -91,18 +88,18 @@ lightAttribOverride CASPodiumArea_podiumMirrorBounce7 falloffRate 1
 lightAttribOverride CASPodiumArea_podiumMirrorBounce7 diffusionSourceIntensity 0
 
 
-create Zero(CASFamilyArea_objectsOnly1)
+create Zero(CASFamilyArea_objectsOnly1)  
 create Zero(CASPodiumArea_objectsOnly1)
 create WZero(windowTwoTileWideLoftCAS_1E_0_0_N_light)
 create WZero(windowTwoTileWideLoftCAS_0_1S_0_S_light)
 create WZero(windowTwoTileWideLoftCAS_1E_1S_0_s_light)
 create WZero(windowTwoTileWideLoftCAS_0_0_0_N_light)
 
-seti FamilyAreaOff 1
-seti PodiumAreaOff 1
+seti FamilyAreaOff 0
+seti PodiumAreaOff 0
 
-if ($FamilyAreaOff)
-	create Zero(CASFamilyArea_objectsOnly1)
+if ($FamilyAreaOff) 
+	create Zero(CASFamilyArea_objectsOnly1)  
 	create Zero(CAS_FamilyAreaKey8)
 	create Zero(CASFamilyArea_Fill8)
 	create Zero(CASFamilyArea_studioBarnDoors_light8)
@@ -122,3 +119,5 @@ if($PodiumAreaOff)
 	create Zero(CASPodiumArea_microHalogenLight1_02)
 	create Zero(CASPodiumArea_microHalogenLight1_03)
 endif
+
+

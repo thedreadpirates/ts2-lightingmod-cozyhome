@@ -89,6 +89,22 @@ For those who play games where white lighting isn't desirable, you can switch to
 |----------------------------------------------------------|-----------------------------------------------------------------|
 | ![Image](assets/previews/ch_default.png)<br/>**Default** | ![Image](assets/previews/ch_wlbf.png)<br/>**World Lit by Fire** |
 
+### LIGHTING STYLES
+
+Lighting Styles are sets of lighting definitions and configuration files for different effects depending on what kind of lighting you want. Each style has different lighting definitions, colour configurations, and time of day states.
+
+You can choose from one of three:
+- **Cozy** - this is a balanced lighting configuration between realistic and Maxis-styled lighting. Intensity of the lights is in between Cinematic and Smooth. If you don't otherwise change the default lighting setting this is the setting you will get.
+- **Cinematic** - this is a more realistic, more saturated lighting configuration similar to the Radiance Lighting System and Cinema Secrets. Very dark nights and brighter lights
+- **Smooth** - this is a smoother, softer, less saturated lighting configuration that is kind of like a souped-up Maxis Match Lighting mod. Perfect for more Maxis-Match players
+
+Each style also has its own World Lit by Fire mode tailored to the lighting as well.
+
+|                                                                                      |                                                                                          |
+|--------------------------------------------------------------------------------------|------------------------------------------------------------------------------------------|
+| ![Image](assets/previews/ch_lightingstyle_cozy_day.png)<br/>**Cozy - Day**           | ![Image](assets/previews/ch_lightingstyle_cozy_night.png)<br/>**Cozy - Night**           |
+| ![Image](assets/previews/ch_lightingstyle_cinematic_day.png)<br/>**Cinematic - Day** | ![Image](assets/previews/ch_lightingstyle_cinematic_night.png)<br/>**Cinematic - Night** |
+| ![Image](assets/previews/ch_lightingstyle_smooth_day.png)<br/>**Smooth - Day**       | ![Image](assets/previews/ch_lightingstyle_smooth_night.png)<br/>**Smooth - Night**       |
 
 ## **GAME INSTALLATION FOLDERS**
 
@@ -153,14 +169,42 @@ These steps assume that you have already extracted the files to an accessible lo
 
 6. Copy the contents of the folder labeled 4.0 to your Downloads folder. These contain the fixed Store lights as well as the required night light map replacements for both lot and neighborhood lighting.
 
-## **SWITCHING LIGHTING DIRECTIONS**
+## **SWITCHING LIGHTING STYLES**
 
 To switch lighting directions (Back, Left, Right), type the following cheats:
 
-| **Lighting Mod**    | **Front (default)** | **Back** | **Left** | **Right** |
-|---------------------|---------------------|----------|----------|-----------|
-| Cozy Home (default) | `sld` or `sldf`     | `sldb`   | `sldl`   | `sldr`    |
-| World Lit by Fire   | `slw` or `slwf`     | `slwb`   | `slwl`   | `slwr`    |
+| **Lighting Style**    | **Front (default)**                   | **Back**       | **Left**       | **Right**      |
+|-----------------------|---------------------------------------|----------------|----------------|----------------|
+| Default               | `ltClear` or `ltFront`                | `ltBack`       | `ltLeft`       | `ltRight`      |
+| Default (Fire Mode)   | `ltFire` or `ltFireFront`             | `ltFireBack`   | `ltFireLeft`   | `ltFireRight`  |
+| Cozy                  | `ltCozy` or `ltCozyFront`             | `ltCozyBack`   | `ltCozyLeft`   | `ltCozyRight`  |
+| Cozy  (Fire Mode)     | `ltCozyFire` or `ltCozyFireFront`     | `ltCozyFire`   | `ltCozyFire`   | `ltCozyFire`   |
+| Cinematic             | `ltCinema` or `ltCinemaFront`         | `ltCinema`     | `ltCinema`     | `ltCinema`     |
+| Cinematic (Fire Mode) | `ltCinemaFire` or `ltCinemaFireFront` | `ltCinemaFire` | `ltCinemaFire` | `ltCinemaFire` |
+| Smooth                | `ltSmooth` or `ltSmoothFront`         | `ltSmooth`     | `ltSmooth`     | `ltSmooth`     |
+| Smooth (Fire Mode)    | `ltSmoothFire` or `ltSmoothFireFront` | `ltSmoothFire` | `ltSmoothFire` | `ltSmoothFire` |
+
+## **SWITCHING DEFAULT LIGHTING STYLE**
+
+The mod uses the _**Cozy**_ lighting style by default, but you can switch to any of the other lighting mods by following these steps:
+
+1. Go to your Mansion and Garden Lights folder.
+2. Copy the original `Lighting.txt` file and rename to `Lighting_bak.txt`
+3. Open `Lighting.txt` file and look for the first `sinclude` line and change it to the file of the lighting style you want. 
+4. Save.
+5. Repeat Steps 2-4 with `Lighting_Back.txt`, `Lighting_Left.txt`, and `Lighting_Right.txt`, changing the first `sinclude` line with the corresponding light direction file for each lighting mod.
+6. If your game is open, key in CTRL+SHIFT+C, then type `sld`
+
+### Lighting File Table
+
+| **Lighting Style**    | **Front (default)**           | **Back**                           | **Left**                           | **Right**                           |
+|-----------------------|-------------------------------|------------------------------------|------------------------------------|-------------------------------------|
+| Cozy                  | `Lighting_Cozy.txt`           | `Lighting_Cozy_Back.txt`           | `Lighting_Cozy_Left.txt`           | `Lighting_Cozy_Right.txt`           |
+| Cozy  (Fire Mode)     | `Lighting_Cozy_WLBF.txt`      | `Lighting_Cozy_WLBF_Back.txt`      | `Lighting_Cozy_WLBF_Left.txt`      | `Lighting_Cozy_WLBF_Right.txt`      |
+| Cinematic             | `Lighting_Cinematic.txt`      | `Lighting_Cinematic_Back.txt`      | `Lighting_Cinematic_Left.txt`      | `Lighting_Cinematic_Right.txt`      |
+| Cinematic (Fire Mode) | `Lighting_Cinematic_WLBF.txt` | `Lighting_Cinematic_WLBF_Back.txt` | `Lighting_Cinematic_WLBF_Left.txt` | `Lighting_Cinematic_WLBF_Right.txt` |
+| Smooth                | `Lighting_Smooth.txt`         | `Lighting_Smooth_Back.txt`         | `Lighting_Smooth_Left.txt`         | `Lighting_Smooth_Right.txt`         |
+| Smooth (Fire Mode)    | `Lighting_Smooth_WLBF.txt`    | `Lighting_Smooth_WLBF_Back.txt`    | `Lighting_Smooth_WLBF_Left.txt`    | `Lighting_Smooth_WLBF_Right.txt`    |
 
 
 ## **UPDATING INSTRUCTIONS:**
@@ -188,19 +232,54 @@ boolProp geomGenerateTangentSpaceSxT true
 ##########################
 
 #### LIGHTING ALIASES ####
-alias sld "setlotlightingfile clear" "Default Lighting" "Default Lighting - front"
-alias sldf "setlotlightingfile clear" "Default Lighting" "Default Lighting - front"
-alias sldb "setlotlightingfile Lighting_Back.txt" "Default Lighting - Back" "Default Lighting - Back"
-alias sldl "setlotlightingfile Lighting_Left.txt" "Default Lighting - Left" "Default Lighting - Left"
-alias sldr "setlotlightingfile Lighting_Right.txt" "Default Lighting - Right" "Default Lighting - Right"
+alias ltClear "setlotlightingfile clear" "default lighting style - front" "default lighting style - front"
+alias ltFront "setlotlightingfile Lighting.txt" "default lighting style - front" "default lighting style - front"
+alias ltBack "setlotlightingfile Lighting_Back.txt" "default lighting style - back" "default lighting style - back"
+alias ltLeft "setlotlightingfile Lighting_Left.txt" "default lighting style - left" "default lighting style - left"
+alias ltRight "setlotlightingfile Lighting_Right.txt" "default lighting style - right" "default lighting style - right"
 
-alias slw "setlotlightingfile Lighting_WLBF.txt" "a world lit by fire" "A World Lit by Fire - front"
-alias slwf "setlotlightingfile Lighting_WLBF.txt" "a world lit by fire" "A World Lit by Fire - front"
-alias slwb "setlotlightingfile Lighting_WLBF_Back.txt" "a world lit by fire - Back" "A World Lit by Fire - Back"
-alias slwl "setlotlightingfile Lighting_WLBF_Left.txt" "a world lit by fire - Left" "A World Lit by Fire - Left"
-alias slwr "setlotlightingfile Lighting_WLBF_Right.txt" "a world lit by fire - Right" "A World Lit by Fire - Right"
+alias ltFire "setlotlightingfile Lighting_WLBF.txt" "default lighting style - front" "default lighting style - front"
+alias ltFireFront "setlotlightingfile Lighting_WLBF.txt" "default lighting style (fire) - front" "default lighting style (fire) - front"
+alias ltFireBack "setlotlightingfile Lighting_WLBF_Back.txt" "default lighting style (fire) - back" "default lighting style (fire) - back"
+alias ltFireLeft "setlotlightingfile Lighting_WLBF_Left.txt"  "default lighting style (fire) - left" "default lighting style (fire) - left"
+alias ltFireRight "setlotlightingfile Lighting_WLBF_Right.txt"  "default lighting style (fire) - right" "default lighting style (fire) - right"
+
+alias ltCozy "setlotlightingfile Lighting_Cozy.txt" "cozy lighting style - front" "cozy lighting style - front"
+alias ltCozyFront "setlotlightingfile Lighting_Cozy.txt" "cozy lighting style - front" "cozy lighting style - front"
+alias ltCozyBack "setlotlightingfile Lighting_Cozy_Back.txt" "cozy lighting style - back" "cozy lighting style - back"
+alias ltCozyLeft "setlotlightingfile Lighting_Cozy_Left.txt" "cozy lighting style - left" "cozy lighting style - left"
+alias ltCozyRight "setlotlightingfile Lighting_Cozy_Right.txt" "cozy lighting style - right" "cozy lighting style - right"
+
+alias ltCozyFire "setlotlightingfile Lighting_Cozy_WLBF.txt" "cozy lighting style (fire) - front" "cozy lighting style (fire) - front"
+alias ltCozyFireFront "setlotlightingfile Lighting_Cozy_WLBF.txt" "cozy lighting style (fire) - front" "cozy lighting style (fire) - front"
+alias ltCozyFireBack "setlotlightingfile Lighting_Cozy_WLBF_Back.txt" "cozy lighting style (fire) - back" "cozy lighting style (fire) - back"
+alias ltCozyFireLeft "setlotlightingfile Lighting_Cozy_WLBF_Left.txt" "cozy lighting style (fire) - left" "cozy lighting style (fire) - left"
+alias ltCozyFireRight "setlotlightingfile Lighting_Cozy_WLBF_Right.txt" "cozy lighting style (fire) - right" "cozy lighting style (fire) - right"
+
+alias ltCinema "setlotlightingfile Lighting_Cinematic.txt" "cinematic lighting style - front" "cinematic lighting style - front"
+alias ltCinemaFront "setlotlightingfile Lighting_Cinematic.txt" "cinematic lighting style - front" "cinematic lighting style - front"
+alias ltCinemaBack "setlotlightingfile Lighting_Cinematic_Back.txt" "cinematic lighting style - back" "cinematic lighting style - back"
+alias ltCinemaLeft "setlotlightingfile Lighting_Cinematic_Left.txt" "cinematic lighting style - left" "cinematic lighting style - left"
+alias ltCinemaRight "setlotlightingfile Lighting_Cinematic_Right.txt" "cinematic lighting style - right" "cinematic lighting style - right"
+
+alias ltCinemaFire "setlotlightingfile Lighting_Cinematic_WLBF.txt" "cinematic lighting style (fire) - front" "cinematic lighting style (fire) - front"
+alias ltCinemaFireFront "setlotlightingfile Lighting_Cinematic_WLBF.txt" "cinematic lighting style (fire) - front" "cinematic lighting style (fire) - front"
+alias ltCinemaFireBack "setlotlightingfile Lighting_Cinematic_WLBF_Back.txt" "cinematic lighting style (fire) - back" "cinematic lighting style (fire) - back"
+alias ltCinemaFireLeft "setlotlightingfile Lighting_Cinematic_WLBF_Left.txt" "cinematic lighting style (fire) - left" "cinematic lighting style (fire) - left"
+alias ltCinemaFireRight "setlotlightingfile Lighting_Cinematic_WLBF_Right.txt" "cinematic lighting style (fire) - right" "cinematic lighting style (fire) - right"
+
+alias ltSmooth "setlotlightingfile Lighting_Smooth.txt" "smooth lighting style - front" "smooth lighting style - front"
+alias ltSmoothFront "setlotlightingfile Lighting_Smooth.txt" "smooth lighting style - front" "smooth lighting style - front"
+alias ltSmoothBack "setlotlightingfile Lighting_Smooth_Back.txt" "smooth lighting style - back" "smooth lighting style - back"
+alias ltSmoothLeft "setlotlightingfile Lighting_Smooth_Left.txt" "smooth lighting style - left" "smooth lighting style - left"
+alias ltSmoothRight "setlotlightingfile Lighting_Smooth_Right.txt" "smooth lighting style - right" "smooth lighting style - right"
+
+alias ltSmoothFire "setlotlightingfile Lighting_Smooth_WLBF.txt" "smooth lighting style - front" "smooth lighting style - front"
+alias ltSmoothFireFront "setlotlightingfile Lighting_Smooth_WLBF.txt" "smooth lighting style - front" "smooth lighting style - front"
+alias ltSmoothFireBack "setlotlightingfile Lighting_Smooth_WLBF_Back.txt" "smooth lighting style - back" "smooth lighting style - back"
+alias ltSmoothFireLeft "setlotlightingfile Lighting_Smooth_WLBF_Left.txt" "smooth lighting style - left" "smooth lighting style - left"
+alias ltSmoothFireRight "setlotlightingfile Lighting_Smooth_WLBF_Right.txt" "smooth lighting style - right" "smooth lighting style - right"
 ##########################
-
 ```
 
 ## **UNINSTALLATION INSTRUCTIONS**
