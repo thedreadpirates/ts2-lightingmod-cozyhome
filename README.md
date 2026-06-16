@@ -173,16 +173,16 @@ These steps assume that you have already extracted the files to an accessible lo
 
 To switch lighting directions (Back, Left, Right), type the following cheats:
 
-| **Lighting Style**    | **Front (default)**                   | **Back**       | **Left**       | **Right**      |
-|-----------------------|---------------------------------------|----------------|----------------|----------------|
-| Default               | `ltClear` or `ltFront`                | `ltBack`       | `ltLeft`       | `ltRight`      |
-| Default (Fire Mode)   | `ltFire` or `ltFireFront`             | `ltFireBack`   | `ltFireLeft`   | `ltFireRight`  |
-| Cozy                  | `ltCozy` or `ltCozyFront`             | `ltCozyBack`   | `ltCozyLeft`   | `ltCozyRight`  |
-| Cozy  (Fire Mode)     | `ltCozyFire` or `ltCozyFireFront`     | `ltCozyFire`   | `ltCozyFire`   | `ltCozyFire`   |
-| Cinematic             | `ltCinema` or `ltCinemaFront`         | `ltCinema`     | `ltCinema`     | `ltCinema`     |
-| Cinematic (Fire Mode) | `ltCinemaFire` or `ltCinemaFireFront` | `ltCinemaFire` | `ltCinemaFire` | `ltCinemaFire` |
-| Smooth                | `ltSmooth` or `ltSmoothFront`         | `ltSmooth`     | `ltSmooth`     | `ltSmooth`     |
-| Smooth (Fire Mode)    | `ltSmoothFire` or `ltSmoothFireFront` | `ltSmoothFire` | `ltSmoothFire` | `ltSmoothFire` |
+| **Lighting Style**    | **Front (default)**                   | **Back**           | **Left**           | **Right**           |
+|-----------------------|---------------------------------------|--------------------|--------------------|---------------------|
+| Default               | `ltClear` or `ltFront`                | `ltBack`           | `ltLeft`           | `ltRight`           |
+| Default (Fire Mode)   | `ltFire` or `ltFireFront`             | `ltFireBack`       | `ltFireLeft`       | `ltFireRight`       |
+| Cozy                  | `ltCozy` or `ltCozyFront`             | `ltCozyBack`       | `ltCozyLeft`       | `ltCozyRight`       |
+| Cozy  (Fire Mode)     | `ltCozyFire` or `ltCozyFireFront`     | `ltCozyFireBack`   | `ltCozyFireLeft`   | `ltCozyFireRight`   |
+| Cinematic             | `ltCinema` or `ltCinemaFront`         | `ltCinemaBack`     | `ltCinemaLeft`     | `ltCinemaRight`     |
+| Cinematic (Fire Mode) | `ltCinemaFire` or `ltCinemaFireFront` | `ltCinemaFireBack` | `ltCinemaFireLeft` | `ltCinemaFireRight` |
+| Smooth                | `ltSmooth` or `ltSmoothFront`         | `ltSmoothBack`     | `ltSmoothLeft`     | `ltSmoothRight`     |
+| Smooth (Fire Mode)    | `ltSmoothFire` or `ltSmoothFireFront` | `ltSmoothFireBack` | `ltSmoothFireLeft` | `ltSmoothFireRight` |
 
 ## **SWITCHING DEFAULT LIGHTING STYLE**
 
