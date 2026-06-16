@@ -1,0 +1,304 @@
+############ TABLE LIGHTS #########################
+#1 Pix-Arm Drafting Table Lamp #
+create TableFour(lightingTableValue1_light)
+create SoftAmber(lightingTableValue1_light) # Pix Arm (desk lamp)
+######################################################################
+
+#2 The Watt is It Table Lamp #
+create TableThree(lightingTableValue2_light)
+create SoftWhite(lightingTableValue2_light) # Watt Is It (small bedside lamp)
+######################################################################
+
+#3 Lunatech Spare Fixture Ocean #
+create bigBulb(lightingTableBigBulb_light)  #Blue one
+create SoftBlue(lightingTableBigBulb_light) # blue bulb
+######################################################################
+
+#4 Lunatech Spare Fixture Grass #
+create bigBulb(lightingTableBigBulbGreen_light)
+create SoftGreen(lightingTableBigBulbGreen_light) # green bulb
+######################################################################
+
+#5 Lunatech Spare Fixture Crimson #
+create bigBulb(lightingTableBigBulbRed_light)
+create SoftRed(lightingTableBigBulbRed_light) # pink bulb
+######################################################################
+
+#6 Social Climbing Ivy Table Lamp #
+create TableFour(lightingTableQuaint_light)
+create Amber(lightingTableQuaint_light) # Social Climbing Ivy
+######################################################################
+
+#7 Illistra Lamp #
+create TableFour(lightingTableDesigner_light)
+create SoftAmber(lightingTableDesigner_light) # Ilistara
+######################################################################
+
+#8 Absolutely Nothing Special #
+create TableThree(lightingTableMoroccan_light)
+create Amber(lightingTableMoroccan_light) # Absolutely Nothing Special
+######################################################################
+
+#9 Gentle Glow Table Lamp #
+create TableThree(lightingTableCentralAsian1_light)
+create Amber(lightingTableCentralAsian1_light) # GentleGlow
+######################################################################
+
+#12 Dynasty Enlightenment Lamp #
+create TableFour(lightingTableCentralAsian2_light)
+create Amber(lightingTableCentralAsian2_light) # Dynasty Enlightenment
+######################################################################
+
+#13 Lunatech BCT/6 #
+create TableFour(lightingTableClubLamp_light)
+create Amber(lightingTableClubLamp_light) # Lunatech
+######################################################################
+
+#15 Shoji Table Lantern #
+create TableThree(lightingTableLoftShoji_light)
+create SoftAmber(lightingTableLoftShoji_light) # Shoji
+######################################################################
+
+#16 The Inner Light #
+create TableThree(lightingTableArtNouveau_light)
+create Amber(lightingTableArtNouveau_light) # Inner Light
+######################################################################
+
+#17 Founding Fathers Electric Lamp #
+create TableFour(lightingTableColonial1_light)
+create Amber(lightingTableColonial1_light) # Founding Fathers - formerly broken
+######################################################################
+
+#18 Whodunit Table Lamp #
+create TableFour(lightingTableColonial2_light)
+create SoftAmber(lightingTableColonial2_light) # Whodunnit
+######################################################################
+
+
+############ FLOOR LIGHTS #########################
+
+
+create FloodLight(lightingFloorValue_light)
+create SoftWhite(lightingFloorValue_light) # Thrice As Nice
+############################################################ 
+
+#2 Social Climbing Ivy Floor Lamp #
+create Four(lightingFloorQuaint_light)
+create Amber(lightingFloorQuaint_light) # Social Climbing Ivy
+############################################################
+
+#3 Burnished Blaze #
+create Five(lightingFloorClubLampTorch_light)
+create SoftAmber(lightingFloorClubLampTorch_light) # Burnished Blaze
+############################################################
+
+#5 Light Orbiter #
+create Five(lightingFloorClubLampSwingArm_light)
+create SoftAmber(lightingFloorClubLampSwingArm_light) # Light Orbiter
+############################################################
+
+#6 Tulip Light #
+create Five(lightingFloorLoftLamp_light)
+create SoftWhite(lightingFloorLoftLamp_light) # Tulip
+############################################################
+
+#8 Tornadoe Torch Lamp #
+create Four(lightingFloorMoroccan_light)
+create Amber(lightingFloorMoroccan_light) # Tornado
+############################################################
+
+# Designer Lamp
+create Four(lightingFloorDesigner_light)
+create SoftWhite(lightingFloorDesigner_light)
+############################################################
+
+# Rave Against The Machine
+create Five(lightingFloorUM_light)
+create SoftBlue(lightingFloorUM_light) # Rave Against The Machine
+############################################################ 
+
+
+
+############ WALL LIGHTS ######################
+
+#1 Basically Bare Bulb #
+create WallFour(lightingWallValue_light)
+create Florescent(lightingWallValue_light) # Basically Bare Bulb (lightbulb)
+############################################################
+
+#2 Prisoner of AkzaLamp #
+create WallFour(lightingWallValue2_light)
+create PastelBlue(lightingWallValue2_light) # Prisoner
+############################################################
+
+#3 Torcher Clamshell #
+create WallFourClam(lightingWallSconceClamshell_light)
+create SoftAmber(lightingWallSconceClamshell_light) # Clamshell
+############################################################
+
+#4 LunaTech Gullivinzer #
+create WallFour(lightingWallSconceWave_light)
+create SoftAmber(lightingWallSconceWave_light) # GaulleVanizer
+############################################################
+
+#6 Wall Flowers Sconce #
+create WallFourClam(lightinglWallQuaint_light)
+create Amber(lightinglWallQuaint_light) # Wall Flowers
+############################################################
+
+#9 Antique Metal Sconce #
+create WallFourClam(lightingWallMoroccan_light)
+create Amber(lightingWallMoroccan_light) # Antique Metal Sconce
+############################################################
+
+#12 Almost Deco #
+create WallFourClam(wallDeckSconce_point)
+create SoftAmber(wallDeckSconce_point) # Almost Deco
+############################################################
+
+#13 Torcher Luminescence Sconce #
+create WallFourClam(lightingWallClubSconce_light)
+create Amber(lightingWallClubSconce_light) # Luminescence
+############################################################
+
+#18 Illuminating Angles by Newt Vo #
+create WallFour(lightingWallArtNouveau_light)
+create SoftAmber(lightingWallArtNouveau_light) # Illuminating Angles
+############################################################
+
+#9 Antique Metal Sconce #
+create 60WattWALL(lightingWallMoroccan_light)
+create Amber(lightingWallMoroccan_light)
+############################################################
+
+# Antebellum Wall lamp #
+create WallFour(lightingWallColonial_light)
+create SoftFire(lightingWallColonial_light) # Antebellum
+############################################################
+
+
+############ CEILING LIGHTS ################################
+
+#1 Light Effects Ceiling Lamp #
+create CeilingSix(lightingCeilingValue_light)
+create SoftWhite(lightingCeilingValue_light)
+############################################################
+
+#2 Lunatech Lighten Up Lighting Fixture #
+create CeilingCanister(lightingCeilingCanister_light)
+create SoftWhite(lightingCeilingCanister_light)
+############################################################
+
+#3 Lamp On the Half Shell #
+create CeilingFive(lightingCeilingQuaint_light)
+create SoftWhite(lightingCeilingQuaint_light)
+############################################################
+
+#4 4 x 4 Designer Chandiler #
+create CeilingSix(lightingCeilingDesigner_light)  
+create SoftWhite(lightingCeilingDesigner_light) 
+############################################################
+
+#5 Dangling DayLight Ceiling Lamp #
+create CeilingFive(lightingCeilingHangingFluorescent_light)
+create Florescent(lightingCeilingHangingFluorescent_light)
+############################################################
+
+#6 Qadim Bauble Lamp #
+create CeilingFive(lightingCeilingMoroccan_light)
+create Amber(lightingCeilingMoroccan_light)
+############################################################
+
+#7 Chinese Riddle Lantern #
+create CeilingFive(lightingCeilingCentralAsian_light) 
+create SoftAmber(lightingCeilingCentralAsian_light)
+############################################################
+
+#9 Legno's Modern Lamp #
+create CeilingSix(lightingCeilingChandelierModern_light)  
+create SoftWhite(lightingCeilingChandelierModern_light)
+############################################################
+
+#10 Lunatech Amber Ceiling Lamp #
+create CeilingSix(lightingCeilingClubGlass_light)
+create Amber(lightingCeilingClubGlass_light)
+############################################################
+
+#11 Paper Moon Ceiling Lamp #
+create CeilingSix(lightingCeilingPaperShade_bulb) 
+create SoftAmber(lightingCeilingPaperShade_bulb) 
+############################################################
+
+#14 Floral Fancy Hanging Lamp #
+create CeilingFive(lightingCeilingArtNouveau_light)
+create Amber(lightingCeilingArtNouveau_light)
+############################################################
+
+
+############ OUTDOOR LIGHTS #######################
+
+
+# Blazin Buckaroos Fencelight#
+create Six(deckPostLamp_point)
+create SoftWhite(deckPostLamp_point)
+create Zero(deckPostLamp_spot)
+create SoftWhite(deckPostLamp_spot)
+######################################################################
+
+# Garden Glow SpotLight #
+create Seven(gardenUplight)
+lightAttribOverride gardenUplight coneAngle 35
+lightAttribOverride gardenUplight conePenumbra 25
+create SoftWhite(gardenUplight)
+
+create Seven(gardenUplight_tree)
+lightAttribOverride gardenUplight_tree diffusionSourceIntensity 0
+lightAttribOverride gardenUplight_tree falloffRate 0.4
+create SoftWhite(gardenUplight_tree)
+######################################################################
+
+# Secure Sentinal FenceLight #
+create Eight(lightingFenceBrickWallLamp_light)
+create SoftAmber(lightingFenceBrickWallLamp_light) # Secure Sentinel
+######################################################################
+
+# Little House Lantern #
+create Six(lightingFenceCentralAsian_light)
+create SoftAmber(lightingFenceCentralAsian_light) # Little House Lantern
+######################################################################
+
+# City Dweller Dims #
+create Seven(lightingFloorGardenBollard_light)
+create SoftWhite(lightingFloorGardenBollard_light)
+######################################################################
+
+# The Spike Light #
+create Seven(lightingFloorGardenTier_light)
+create SoftWhite(lightingFloorGardenTier_light)
+######################################################################
+
+# Preventek Lumilight Street Light #
+create Ten(lightingStreetlight_light)
+create SoftWhite(lightingStreetlight_light)
+######################################################################
+
+# Wooden Post N Lamp Street Light #
+create Ten(lightingStreetlightWooden_light)
+create SoftWhite(lightingStreetlightWooden_light)
+######################################################################
+
+# Preventek Tri-Luminlight Street Lamp #
+create Zero(streetlightTriple_left)
+create Zero(streetlightTriple_right)
+create Nine(streetlightTriple_middle)
+create SoftWhite(streetlightTriple_middle)
+######################################################################
+
+# Phone Booth #
+create Six(phoneBooth_light)
+create SoftWhite(phoneBooth_light)
+
+create Eight(lightingFencePostValue_light)
+create SoftWhite(lightingFencePostValue_light)
+
+

@@ -1,30 +1,9 @@
 ####################################################
-# Lighting Manager settings
+# LIGHTING DEFINITIONS
 ####################################################
-# BG Lights
-sinclude "LightDefs/BGWindows.nlo"
-sinclude "LightDefs/BGLights.nlo"
-sinclude "LightDefs/BGSpecialObjects.txt"
 
-# EP Lights
-sinclude "LightDefs/EP1Lights.nlo"
-sinclude "LightDefs/EP2Lights.nlo"
-sinclude "LightDefs/EP3Lights.nlo"
-sinclude "LightDefs/EP4Lights.nlo"
-sinclude "LightDefs/EP5Lights.nlo"
-sinclude "LightDefs/EP6Lights.nlo"
-sinclude "LightDefs/EP7Lights.nlo"
-sinclude "LightDefs/EP8Lights.nlo"
-sinclude "LightDefs/SP1Lights.nlo"
-sinclude "LightDefs/SP2Lights.nlo"
-sinclude "LightDefs/SP3Lights.nlo"
-sinclude "LightDefs/SP4Lights.nlo"
-sinclude "LightDefs/SP5Lights.nlo"
-sinclude "LightDefs/SP6Lights.nlo"
-sinclude "LightDefs/SP7Lights.nlo"
-sinclude "LightDefs/SP8Lights.nlo"
-sinclude "LightDefs/EP9Lights.nlo"
-sinclude "LightDefs/StoreLights.nlo"
+sinclude "Lighting_Cozy.txt"
+
 ####################################################
 # DO NOT DELETE THIS FILE!
 ####################################################

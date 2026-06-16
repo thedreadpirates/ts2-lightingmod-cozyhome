@@ -1,0 +1,321 @@
+####################################################
+# Lighting Manager settings
+####################################################
+ignoreErrors true
+
+setf wConeMul 60
+setf wPenMul  40
+
+# Light Definitions
+sinclude "LightDefs_Cozy/_Windows/windows.txt"
+sinclude "LightDefs_Cozy/_Objects/colors.txt"
+sinclude "LightDefs_Cozy/_Objects/lightObjects.txt"
+sinclude "LightDefs_Cozy/_Objects/SpecialObjects.txt"
+
+# BG Lights
+sinclude "LightDefs_Cozy/BGWindows.nlo"
+sinclude "LightDefs_Cozy/BGLights.nlo"
+sinclude "LightDefs_Cozy/BGSpecialObjects.txt"
+
+# EP Lights
+sinclude "LightDefs_Cozy/EP1Lights.nlo"
+sinclude "LightDefs_Cozy/EP2Lights.nlo"
+sinclude "LightDefs_Cozy/EP3Lights.nlo"
+sinclude "LightDefs_Cozy/EP4Lights.nlo"
+sinclude "LightDefs_Cozy/EP5Lights.nlo"
+sinclude "LightDefs_Cozy/EP6Lights.nlo"
+sinclude "LightDefs_Cozy/EP7Lights.nlo"
+sinclude "LightDefs_Cozy/EP8Lights.nlo"
+sinclude "LightDefs_Cozy/SP1Lights.nlo"
+sinclude "LightDefs_Cozy/SP2Lights.nlo"
+sinclude "LightDefs_Cozy/SP3Lights.nlo"
+sinclude "LightDefs_Cozy/SP4Lights.nlo"
+sinclude "LightDefs_Cozy/SP5Lights.nlo"
+sinclude "LightDefs_Cozy/SP6Lights.nlo"
+sinclude "LightDefs_Cozy/SP7Lights.nlo"
+sinclude "LightDefs_Cozy/SP8Lights.nlo"
+sinclude "LightDefs_Cozy/EP9Lights.nlo"
+sinclude "LightDefs_Cozy/StoreLights.nlo"
+
+####################################################
+# Global Overrides
+####################################################
+
+
+####################################################
+# Nighttime
+####################################################
+lightingState night
+   skylight                       (0.25, 0.25, 0.35)     0.45
+   light sun      (1.25, 0.75,  2.25)    (.35, .35, 0.675)      0.55
+   light sky      (1.9, -1.3, 0.8)    (0.25, 0.25, 0.475)   0.55
+
+   diffParam insideFloorAmbient 0.01
+   diffParam insideWallAmbient  0.01
+   diffParam insideAmbientColor (1, 1, 1)
+
+   diffParam floorThreshold     .35
+   diffParam wallThreshold      .25
+
+   #                              pract. diffuse  p. falloff  d. falloff
+   modifiers insidePortals         0.0     0.4       0.7         0.7
+   modifiers insidePortalSpills    2.5     1.2       1.0         1.0
+   modifiers outsidePortals        0       0         0           0
+   modifiers outsidePortalSpills   3.5     3.5       0.5         1.0
+
+   #                              pract. diffuse  p. falloff  d. falloff
+   modifiers insideObjects         0.9     0.6       0.35        0.45
+   modifiers outsideObjects        1.0     0.7       0.25        0.55
+
+   projectiveShadowStrength 0.4
+
+   environment (.4, .4, .6)    0.6
+   unlitRoomColor (0.08, 0.08, 0.12) -threshold .33
+end
+
+####################################################
+# Morning
+####################################################
+lightingState morning
+   skylight                          (.5,.4,.2) .4
+   light sun      (-2 ,-1.5, .5)     (.92, .6, .4) 1.4   #this is overall power
+   light sky      (2, 1.5, .5)     (.92, .7, .4) .54   #2:00
+
+   # inside diffusion
+   diffParam insideAmbientColor       (.85, .75, .75)
+   diffParam insideFloorAmbient         0.03
+   diffParam insideWallAmbient          0.03
+
+   # diffusion inside and outside
+   diffParam floorThreshold           .6
+   diffParam wallThreshold            .4
+
+   #                           pract. diffuse  p. falloff  d. falloff
+   modifiers insidePortals       0.0    1.0       0.7         0.7
+   modifiers insidePortalSpills  2.0    1.8       0.25        0.35
+   modifiers outsidePortals      0.4    0.2       0.0         0.5
+   modifiers outsidePortalSpills 3.0    1.0       0.9         0.6
+
+   #                           pract. diffuse  p. falloff  d. falloff
+   modifiers insideObjects      1.0     0.7       0.35        0.4  ### this can go higher when the on/off is fixed
+   modifiers outsideObjects     0.8     0.6       0.2         0.3
+
+   environment (.95, .8, .65) .6  # override environment lighting state
+   unlitRoomColor (0.18, 0.18, 0.22) -threshold .33
+end
+
+
+####################################################
+# Evening
+####################################################
+lightingState evening
+   skylight                       (.5,.3,.2) .6
+   light sun      (-0.5, 0.48, 0.2)  (.84, .52, .37)   1.75
+   light sky      (0.5, -0.48, 0.5)   (.55, .2, .2)  0.8
+
+   # inside diffusion
+   diffParam insideAmbientColor       (.85, .75, .75)
+   diffParam insideFloorAmbient         0.03
+   diffParam insideWallAmbient          0.03
+
+   # diffusion inside and outside
+   diffParam floorThreshold           .6
+   diffParam wallThreshold            .4
+
+   #                              pract. diffuse  p. falloff  d. falloff
+   modifiers insidePortals         0.0     0.6       0.5         0.5
+   modifiers insidePortalSpills    2.5     1.9       0.6         0.6
+   modifiers outsidePortals        0.6     0.5       0.7         0.5
+   modifiers outsidePortalSpills   3.0     2.0       1.0         1.0
+
+   #                              pract. diffuse  p. falloff  d. falloff
+   modifiers insideObjects          0.8      0.7      0.35         0.4
+   modifiers outsideObjects         0.6      0.7      0.25         0.2
+
+   environment (.95, .7, .65) .55
+   unlitRoomColor (0.18, 0.18, 0.22) -threshold .33
+end
+
+####################################################
+# Daytime/Season - Summer
+####################################################
+lightingState day
+   skylight                      (1,1,0.95)  0.5
+   light sun      (-1, -1.38, 1.5)    (1, .96, .85)     1.67
+   light sky      (1.5, 1.2, 2)  (1,.95,.82)    .7
+
+   # inside diffusion
+   diffParam insideAmbientColor       (.85, .75, .75)
+   diffParam insideFloorAmbient         0.03
+   diffParam insideWallAmbient          0.03
+
+   # diffusion inside and outside
+   diffParam floorThreshold           .5
+   diffParam wallThreshold            .4
+
+   #                           pract. diffuse  p. falloff  d. falloff
+   modifiers insidePortals       0.0    0.0       1.0         1.0
+   modifiers insidePortalSpills  1.0    1.8       0.25        0.35
+   modifiers outsidePortals      0.0    0.0       1.0         1.0
+   modifiers outsidePortalSpills 0.0    0.0       1.0         1.0
+
+   #                           pract. diffuse  p. falloff  d. falloff
+   modifiers insideObjects      0.8     0.6       0.2         0.3  ### this can go higher when the on/off is fixed
+   modifiers outsideObjects     0.2     0.25      0.1         0.1
+
+   environment (1, 1, 1) 1
+   unlitRoomColor (.27, .26, .23) -threshold .4
+end
+
+
+####################################################
+# Season - Winter
+####################################################
+lightingState Winter
+   skylight                      (.87,.925,1)  0.5
+   light sun      (-1.1, -1.5, 1.45)     (.89, .88, 0.92)     1.8
+   light sky      (1.5, 1.2, 2)  (.87,.95,0.93)    .4
+
+   diffParam insideAmbientColor       (.85, .75, .75)
+   diffParam insideFloorAmbient         0.03
+   diffParam insideWallAmbient          0.03
+
+   # diffusion inside and outside
+   diffParam floorThreshold           .5
+   diffParam wallThreshold            .4
+
+   #                           pract. diffuse  p. falloff  d. falloff
+   modifiers insidePortals       0.0    0.0       1.0         1.0
+   modifiers insidePortalSpills  1.0    1.8       0.25        0.35
+   modifiers outsidePortals      0.0    0.0       1.0         1.0
+   modifiers outsidePortalSpills 0.0    0.0       1.0         1.0
+
+   #                           pract. diffuse  p. falloff  d. falloff
+   modifiers insideObjects      0.8     0.6       0.2         0.3  ### this can go higher when the on/off is fixed
+   modifiers outsideObjects     0.2     0.25      0.1         0.1
+
+   environment (1, 1, 1) 1
+   unlitRoomColor (.27, .26, .23) -threshold .4
+end
+
+####################################################
+# Season - Spring
+####################################################
+lightingState Spring
+   skylight          (1,1,0.95)  0.5
+   light sun      (-1.5, -1.38, 1.5)    (1, .98, .73)     1.6
+   light sky      (1.5, 1.2, 2)  (1, .96, .72)   .95
+
+   diffParam insideAmbientColor       (.85, .75, .75)
+   diffParam insideFloorAmbient         0.03
+   diffParam insideWallAmbient          0.03
+
+   # diffusion inside and outside
+   diffParam floorThreshold           .5
+   diffParam wallThreshold            .4
+
+   #                           pract. diffuse  p. falloff  d. falloff
+   modifiers insidePortals       0.0    0.0       1.0         1.0
+   modifiers insidePortalSpills  1.0    1.7       0.30        0.35
+   modifiers outsidePortals      0.0    0.0       1.0         1.0
+   modifiers outsidePortalSpills 0.0    0.0       1.0         1.0
+
+   #                           pract. diffuse  p. falloff  d. falloff
+   modifiers insideObjects      0.6     0.4       0.2         0.3  ### this can go higher when the on/off is fixed
+   modifiers outsideObjects     0.2     0.25      0.1         0.1
+
+   environment (1, 1, 1) 1
+   unlitRoomColor (.27, .26, .23) -threshold .4
+end
+
+####################################################
+# Season - Autumn
+####################################################
+lightingState Autumn
+   skylight          (1,0.98,0.97)  0.5
+   light sun      (-1.6, -1.5, 1.54)   (1, .86, .74)     1.55
+   light sky      (1.5, 1.2, 2)   (1, .84, .74) .9
+
+   diffParam insideAmbientColor       (.85, .75, .75)
+   diffParam insideFloorAmbient         0.03
+   diffParam insideWallAmbient          0.03
+
+   # diffusion inside and outside
+   diffParam floorThreshold           .5
+   diffParam wallThreshold            .4
+
+   #                           pract. diffuse  p. falloff  d. falloff
+   modifiers insidePortals       0.0    0.0       1.0         1.0
+   modifiers insidePortalSpills  1.0    1.8       0.25        0.35
+   modifiers outsidePortals      0.0    0.0       1.0         1.0
+   modifiers outsidePortalSpills 0.0    0.0       1.0         1.0
+
+   #                           pract. diffuse  p. falloff  d. falloff
+   modifiers insideObjects      0.8     0.6       0.2         0.3  ### this can go higher when the on/off is fixed
+   modifiers outsideObjects     0.2     0.25      0.1         0.1
+
+   environment (1, 1, 1) 1
+   unlitRoomColor (.27, .25, .24) -threshold .4
+end
+
+####################################################
+# Season - Overcast
+####################################################
+lightingState Overcast
+   skylight          (0.9, 0.9, 0.9)  0.5
+   light sun      (-1.5, -1.2, 2)    (.98, .98, 1)     1.1
+   light sky      (1.5, 1.2, 2)  (.98,1,.98)    .5
+
+   diffParam insideAmbientColor       (.85, .75, .75)
+   diffParam insideFloorAmbient         0.03
+   diffParam insideWallAmbient          0.03
+
+   # diffusion inside and outside
+   diffParam floorThreshold           .4
+   diffParam wallThreshold            .4
+
+   #                           pract. diffuse  p. falloff  d. falloff
+   modifiers insidePortals       0.0    0.0       1.0         1.0
+   modifiers insidePortalSpills  1.0    1.8       0.25        0.35
+   modifiers outsidePortals      0.0    0.0       1.0         1.0
+   modifiers outsidePortalSpills 0.0    0.0       1.0         1.0
+
+   #                           pract. diffuse  p. falloff  d. falloff
+   modifiers insideObjects      0.8     0.6       0.2         0.3  ### this can go higher when the on/off is fixed
+   modifiers outsideObjects     0.2     0.25      0.1         0.1
+
+   environment (1, 1, 1) 1
+   unlitRoomColor (.26, .26, .26) -threshold .4
+end
+
+
+####################################################
+# Lot Night - Vacation Lot - Taken from the Base Game lighting.txt
+####################################################
+lightingState vacationNight
+   skylight                       (0.25, 0.25, 0.35)     0.45
+   light sun      (1.25, 0.75,  2.25)    (.35, .35, 0.65)      0.55
+   light sky      (1.9, -1.3, 0.8)    (0.25, 0.25, 0.45)   0.55
+
+   diffParam insideFloorAmbient 0.001
+   diffParam insideWallAmbient  0.001
+   diffParam floorThreshold     .2
+   diffParam wallThreshold      .2
+
+   #                              pract. diffuse  p. falloff  d. falloff
+   modifiers insidePortals         0      .2      1 1
+   modifiers insidePortalSpills    0      .2      1 1
+   modifiers outsidePortals        4      4       .5         1
+   modifiers outsidePortalSpills   4      4      .5         1
+
+   #                         pract. diffuse  p. falloff  d. falloff
+   modifiers insideObjects     .6    .6       .35       .65
+   modifiers outsideObjects    1      .6        .4     .65
+
+   environment (.45, .45, .65)    0.6
+   unlitRoomColor (0.08, 0.08, 0.12) -threshold .3
+end
+
+####################################################
+# DO NOT DELETE THIS FILE!
+####################################################

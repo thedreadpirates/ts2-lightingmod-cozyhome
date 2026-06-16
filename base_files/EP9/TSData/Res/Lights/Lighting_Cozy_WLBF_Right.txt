@@ -1,0 +1,24 @@
+####################################################
+# Lighting Manager settings
+####################################################
+ignoreErrors true
+
+sinclude "Lighting_Cozy_Right.txt"
+
+# BG Lights
+sinclude "LightDefs_Cozy/_WLBF/BGLights.nlo"
+
+# EP Lights
+sinclude "LightDefs_Cozy/_WLBF/EP1Lights.nlo"
+sinclude "LightDefs_Cozy/_WLBF/EP2Lights.nlo"
+sinclude "LightDefs_Cozy/_WLBF/EP4Lights.nlo"
+sinclude "LightDefs_Cozy/_WLBF/EP5Lights.nlo"
+sinclude "LightDefs_Cozy/_WLBF/EP6Lights.nlo"
+sinclude "LightDefs_Cozy/_WLBF/SP1Lights.nlo"
+sinclude "LightDefs_Cozy/_WLBF/SP4Lights.nlo"
+sinclude "LightDefs_Cozy/_WLBF/SP6Lights.nlo"
+sinclude "LightDefs_Cozy/_WLBF/EP9Lights.nlo"
+
+####################################################
+# DO NOT DELETE THIS FILE!
+####################################################

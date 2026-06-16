@@ -1,0 +1,7 @@
+######### Table lights ###########
+
+create 45WattTABLE(lightingTableUnderwater_light)
+create matchflame(lightingTableUnderwater_light)
+
+create 45WattTABLE(lightingTableFantasy_light)
+create matchflame(lightingTableFantasy_light)

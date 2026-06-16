@@ -1,0 +1,25 @@
+####################################################
+# Lighting Manager settings
+####################################################
+ignoreErrors true
+
+# Light Definitions
+sinclude "Lighting_Smooth_Left.txt"
+
+# BG Lights
+sinclude "LightDefs_Smooth/_WLBF/BGLights.nlo"
+
+# EP Lights
+sinclude "LightDefs_Smooth/_WLBF/EP1Lights.nlo"
+sinclude "LightDefs_Smooth/_WLBF/EP2Lights.nlo"
+sinclude "LightDefs_Smooth/_WLBF/EP4Lights.nlo"
+sinclude "LightDefs_Smooth/_WLBF/EP5Lights.nlo"
+sinclude "LightDefs_Smooth/_WLBF/EP6Lights.nlo"
+sinclude "LightDefs_Smooth/_WLBF/SP1Lights.nlo"
+sinclude "LightDefs_Smooth/_WLBF/SP4Lights.nlo"
+sinclude "LightDefs_Smooth/_WLBF/SP6Lights.nlo"
+sinclude "LightDefs_Smooth/_WLBF/EP9Lights.nlo"
+
+####################################################
+# DO NOT DELETE THIS FILE!
+####################################################

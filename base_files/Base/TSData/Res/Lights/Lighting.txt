@@ -49,10 +49,10 @@ set object:roomOverallStrength   1.1
 set wall:roomOverallStrength     0.8
 
 # strength of room object bounce light
-set roomBounceStrength 			    0.65
-set wall:roomBounceStrength 		0.65
-set object:roomBounceStrength 	    0.65
-set sim:roomBounceStrength 		    0.65
+set roomBounceStrength 			   0.65
+set wall:roomBounceStrength 		0.55
+set object:roomBounceStrength 	0.65
+set sim:roomBounceStrength 		0.75
 
 # The amount of "crossover" from the side lights.
 set roomBounceCrossover 		    1.00
@@ -66,10 +66,10 @@ set sim:roomBounceCrossover 		1.00
 # walls.)
 
 # strength & crossover of room object side lights
-set roomSideStrength  			    1.20
-set wall:roomSideStrength  		    1.20
-set object:roomSideStrength  		1.20
-set sim:roomSideStrength  		    1.20
+set roomSideStrength  			    1.10
+set wall:roomSideStrength  		 1.10
+set object:roomSideStrength  		 1.10
+set sim:roomSideStrength  		    1.10
 
 # crossover of room object side lights
 set roomSideCrossover 			    1.00
@@ -133,10 +133,10 @@ setf object:roomFromLightMapStrength 0
 # reflection. Be careful: setting this value to
 # a high value may result in many more specular
 # highlights than you want, leading to flashing.
-set roomSpecular 			      0.8
-set sim:roomSpecular 			0.8
-set object:roomSpecular 		0.8
-set wall:roomSpecular 			0.8
+set roomSpecular 			      0.9
+set sim:roomSpecular 			0.9
+set object:roomSpecular 		0.9
+set wall:roomSpecular 			0.9
 
 ####################################################
 # Features

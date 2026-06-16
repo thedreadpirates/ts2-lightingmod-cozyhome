@@ -1,0 +1,49 @@
+######### LIGHTS ####################
+
+
+######## Ceiling Lights ###############
+
+
+########### Floor lights ############
+
+
+######### OUTDOOR lights ##########
+
+
+
+######### Table lights ###########
+
+# Kinara #
+create Four(kinara_light)
+create SoftFire(kinara_light)
+
+# Menorah #
+create Four(menorah_light)
+create SoftFire(menorah_light)
+
+######### Wall lights ##########
+
+
+######## Special Objects ###############
+
+# Halloween Cat Deco #
+create SFour(lightingcatballoon_light)
+create Blue(lightingcatballoon_light)
+            
+# Halloween Pumpkin Deco #
+create SFour(lightinghalloweenpumpkin_light)
+create Fire(lightinghalloweenpumpkin_light)
+
+# Green Ghosts deco #
+create SFour(lightinghalloweenghosts_light)
+create Green(lightinghalloweenghosts_light)
+
+# Berge The ProLifeRating Reindeer #
+create SFour(sculpturereindeer_light)
+create SoftWhite(sculpturereindeer_light)
+
+########## Windows ##############
+
+
+########## Doors ##############
+

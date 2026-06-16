@@ -15,15 +15,51 @@ boolProp geomGenerateTangentSpaceSxT true
 ##########################
 
 #### LIGHTING ALIASES ####
-alias sld "setlotlightingfile clear" "Default Lighting" "Default Lighting - front"
-alias sldf "setlotlightingfile clear" "Default Lighting" "Default Lighting - front"
-alias sldb "setlotlightingfile Lighting_Back.txt" "Default Lighting - Back" "Default Lighting - Back"
-alias sldl "setlotlightingfile Lighting_Left.txt" "Default Lighting - Left" "Default Lighting - Left"
-alias sldr "setlotlightingfile Lighting_Right.txt" "Default Lighting - Right" "Default Lighting - Right"
+alias ltClear "setlotlightingfile clear" "default lighting style - front" "default lighting style - front"
+alias ltFront "setlotlightingfile Lighting.txt" "default lighting style - front" "default lighting style - front"
+alias ltBack "setlotlightingfile Lighting_Back.txt" "default lighting style - back" "default lighting style - back"
+alias ltLeft "setlotlightingfile Lighting_Left.txt" "default lighting style - left" "default lighting style - left"
+alias ltRight "setlotlightingfile Lighting_Right.txt" "default lighting style - right" "default lighting style - right"
 
-alias slw "setlotlightingfile Lighting_WLBF.txt" "a world lit by fire" "A World Lit by Fire - front"
-alias slwf "setlotlightingfile Lighting_WLBF.txt" "a world lit by fire" "A World Lit by Fire - front"
-alias slwb "setlotlightingfile Lighting_WLBF_Back.txt" "a world lit by fire - Back" "A World Lit by Fire - Back"
-alias slwl "setlotlightingfile Lighting_WLBF_Left.txt" "a world lit by fire - Left" "A World Lit by Fire - Left"
-alias slwr "setlotlightingfile Lighting_WLBF_Right.txt" "a world lit by fire - Right" "A World Lit by Fire - Right"
+alias ltFire "setlotlightingfile Lighting_WLBF.txt" "default lighting style - front" "default lighting style - front"
+alias ltFireFront "setlotlightingfile Lighting_WLBF.txt" "default lighting style (fire) - front" "default lighting style (fire) - front"
+alias ltFireBack "setlotlightingfile Lighting_WLBF_Back.txt" "default lighting style (fire) - back" "default lighting style (fire) - back"
+alias ltFireLeft "setlotlightingfile Lighting_WLBF_Left.txt"  "default lighting style (fire) - left" "default lighting style (fire) - left"
+alias ltFireRight "setlotlightingfile Lighting_WLBF_Right.txt"  "default lighting style (fire) - right" "default lighting style (fire) - right"
+
+alias ltCozy "setlotlightingfile Lighting_Cozy.txt" "cozy lighting style - front" "cozy lighting style - front"
+alias ltCozyFront "setlotlightingfile Lighting_Cozy.txt" "cozy lighting style - front" "cozy lighting style - front"
+alias ltCozyBack "setlotlightingfile Lighting_Cozy_Back.txt" "cozy lighting style - back" "cozy lighting style - back"
+alias ltCozyLeft "setlotlightingfile Lighting_Cozy_Left.txt" "cozy lighting style - left" "cozy lighting style - left"
+alias ltCozyRight "setlotlightingfile Lighting_Cozy_Right.txt" "cozy lighting style - right" "cozy lighting style - right"
+
+alias ltCozyFire "setlotlightingfile Lighting_Cozy_WLBF.txt" "cozy lighting style (fire) - front" "cozy lighting style (fire) - front"
+alias ltCozyFireFront "setlotlightingfile Lighting_Cozy_WLBF.txt" "cozy lighting style (fire) - front" "cozy lighting style (fire) - front"
+alias ltCozyFireBack "setlotlightingfile Lighting_Cozy_WLBF_Back.txt" "cozy lighting style (fire) - back" "cozy lighting style (fire) - back"
+alias ltCozyFireLeft "setlotlightingfile Lighting_Cozy_WLBF_Left.txt" "cozy lighting style (fire) - left" "cozy lighting style (fire) - left"
+alias ltCozyFireRight "setlotlightingfile Lighting_Cozy_WLBF_Right.txt" "cozy lighting style (fire) - right" "cozy lighting style (fire) - right"
+
+alias ltCinema "setlotlightingfile Lighting_Cinematic.txt" "cinematic lighting style - front" "cinematic lighting style - front"
+alias ltCinemaFront "setlotlightingfile Lighting_Cinematic.txt" "cinematic lighting style - front" "cinematic lighting style - front"
+alias ltCinemaBack "setlotlightingfile Lighting_Cinematic_Back.txt" "cinematic lighting style - back" "cinematic lighting style - back"
+alias ltCinemaLeft "setlotlightingfile Lighting_Cinematic_Left.txt" "cinematic lighting style - left" "cinematic lighting style - left"
+alias ltCinemaRight "setlotlightingfile Lighting_Cinematic_Right.txt" "cinematic lighting style - right" "cinematic lighting style - right"
+
+alias ltCinemaFire "setlotlightingfile Lighting_Cinematic_WLBF.txt" "cinematic lighting style (fire) - front" "cinematic lighting style (fire) - front"
+alias ltCinemaFireFront "setlotlightingfile Lighting_Cinematic_WLBF.txt" "cinematic lighting style (fire) - front" "cinematic lighting style (fire) - front"
+alias ltCinemaFireBack "setlotlightingfile Lighting_Cinematic_WLBF_Back.txt" "cinematic lighting style (fire) - back" "cinematic lighting style (fire) - back"
+alias ltCinemaFireLeft "setlotlightingfile Lighting_Cinematic_WLBF_Left.txt" "cinematic lighting style (fire) - left" "cinematic lighting style (fire) - left"
+alias ltCinemaFireRight "setlotlightingfile Lighting_Cinematic_WLBF_Right.txt" "cinematic lighting style (fire) - right" "cinematic lighting style (fire) - right"
+
+alias ltSmooth "setlotlightingfile Lighting_Smooth.txt" "smooth lighting style - front" "smooth lighting style - front"
+alias ltSmoothFront "setlotlightingfile Lighting_Smooth.txt" "smooth lighting style - front" "smooth lighting style - front"
+alias ltSmoothBack "setlotlightingfile Lighting_Smooth_Back.txt" "smooth lighting style - back" "smooth lighting style - back"
+alias ltSmoothLeft "setlotlightingfile Lighting_Smooth_Left.txt" "smooth lighting style - left" "smooth lighting style - left"
+alias ltSmoothRight "setlotlightingfile Lighting_Smooth_Right.txt" "smooth lighting style - right" "smooth lighting style - right"
+
+alias ltSmoothFire "setlotlightingfile Lighting_Smooth_WLBF.txt" "smooth lighting style - front" "smooth lighting style - front"
+alias ltSmoothFireFront "setlotlightingfile Lighting_Smooth_WLBF.txt" "smooth lighting style - front" "smooth lighting style - front"
+alias ltSmoothFireBack "setlotlightingfile Lighting_Smooth_WLBF_Back.txt" "smooth lighting style - back" "smooth lighting style - back"
+alias ltSmoothFireLeft "setlotlightingfile Lighting_Smooth_WLBF_Left.txt" "smooth lighting style - left" "smooth lighting style - left"
+alias ltSmoothFireRight "setlotlightingfile Lighting_Smooth_WLBF_Right.txt" "smooth lighting style - right" "smooth lighting style - right"
 ##########################
