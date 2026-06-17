@@ -45,6 +45,7 @@ As far as where this mod is in the maxis-match to realistic spectrum, this is so
   - Neon lighting configurations ripped off from Radiance
   - Some configurations like of the lighting configuration workarounds for some lights like the canister ceiling light and the clam lights are ripped off from Radiance
 - Uses a room object lighting algorithm not used in any other available lighting mod (but you can change this later)
+- Three available Lighting Styles to choose from: Cozy, Cinematic (Radiance/Cinema Secrets-like), Smooth (Maxis Match)
 - Compatibility with The Scriptorium.
 
 ### INDOOR LIGHTING CONFIGURATION
