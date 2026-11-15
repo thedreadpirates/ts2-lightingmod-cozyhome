@@ -93,9 +93,9 @@ define Six(lightName)
 	lightAttribOverride &lightName diffusionSourceMin  (0,0)
 	lightAttribOverride &lightName diffusionSourceMax (0,0)
 	lightAttribOverride &lightName diffusionSourceFalloff 1
-	lightAttribOverride &lightName diffusionSourceWallIntensityScale 1.3
-	lightAttribOverride &lightName diffusionSourceFloorIntensityScale 1
-	lightAttribOverride &lightName diffusionSourceIsDirectional 1
+	lightAttribOverride &lightName diffusionSourceWallIntensityScale 1.4
+	lightAttribOverride &lightName diffusionSourceFloorIntensityScale .9
+	lightAttribOverride &lightName diffusionSourceIsDirectional 0
 	lightAttribOverride &lightName diffusionSourceDirectionalFalloff 0
 	lightAttribOverride &lightName coneAngle 60
 	lightAttribOverride &lightName conePenumbra 40
@@ -104,7 +104,7 @@ enddef
 define Five(lightName)
 	lightAttribOverride &lightName intensity 1.3
 	lightAttribOverride &lightName falloffRate 1
-	lightAttribOverride &lightName diffusionSourceIntensity 1.3
+	lightAttribOverride &lightName diffusionSourceIntensity 1.6
 	lightAttribOverride &lightName diffusionSourceMin  (0,0)
 	lightAttribOverride &lightName diffusionSourceMax (0,0)
 	lightAttribOverride &lightName diffusionSourceFalloff 1
@@ -119,7 +119,7 @@ enddef
 define Four(lightName)
 	lightAttribOverride &lightName intensity 1.25
 	lightAttribOverride &lightName falloffRate .9
-	lightAttribOverride &lightName diffusionSourceIntensity 1.25
+	lightAttribOverride &lightName diffusionSourceIntensity 1.4
 	lightAttribOverride &lightName diffusionSourceMin  (0,0)
 	lightAttribOverride &lightName diffusionSourceMax (0,0)
 	lightAttribOverride &lightName diffusionSourceFalloff 1.2
@@ -132,14 +132,14 @@ define Four(lightName)
 enddef
 
 define Three(lightName)
-	lightAttribOverride &lightName intensity 1
-	lightAttribOverride &lightName falloffRate 1
-	lightAttribOverride &lightName diffusionSourceIntensity 1
+	lightAttribOverride &lightName intensity 1.1
+	lightAttribOverride &lightName falloffRate 1.1
+	lightAttribOverride &lightName diffusionSourceIntensity 1.4
 	lightAttribOverride &lightName diffusionSourceMin  (0,0)
 	lightAttribOverride &lightName diffusionSourceMax (0,0)
 	lightAttribOverride &lightName diffusionSourceFalloff 2
-	lightAttribOverride &lightName diffusionSourceWallIntensityScale 1
-	lightAttribOverride &lightName diffusionSourceFloorIntensityScale .75
+	lightAttribOverride &lightName diffusionSourceWallIntensityScale 1.2
+	lightAttribOverride &lightName diffusionSourceFloorIntensityScale .8
 	lightAttribOverride &lightName diffusionSourceIsDirectional 0
 	lightAttribOverride &lightName diffusionSourceDirectionalFalloff 0
 	lightAttribOverride &lightName coneAngle 60
@@ -147,14 +147,14 @@ define Three(lightName)
 enddef
 
 define Two(lightName)
-	lightAttribOverride &lightName intensity .75
-	lightAttribOverride &lightName falloffRate 1
-	lightAttribOverride &lightName diffusionSourceIntensity .75
+	lightAttribOverride &lightName intensity 1
+	lightAttribOverride &lightName falloffRate 1.1
+	lightAttribOverride &lightName diffusionSourceIntensity 1.4
 	lightAttribOverride &lightName diffusionSourceMin  (0,0)
 	lightAttribOverride &lightName diffusionSourceMax (0,0)
 	lightAttribOverride &lightName diffusionSourceFalloff 2
-	lightAttribOverride &lightName diffusionSourceWallIntensityScale 1
-	lightAttribOverride &lightName diffusionSourceFloorIntensityScale .65
+	lightAttribOverride &lightName diffusionSourceWallIntensityScale 1.2
+	lightAttribOverride &lightName diffusionSourceFloorIntensityScale .8
 	lightAttribOverride &lightName diffusionSourceIsDirectional 0
 	lightAttribOverride &lightName diffusionSourceDirectionalFalloff 0
 	lightAttribOverride &lightName coneAngle 60
@@ -162,14 +162,14 @@ define Two(lightName)
 enddef
 
 define One(lightName)
-	lightAttribOverride &lightName intensity 0.5
-	lightAttribOverride &lightName falloffRate 1
-	lightAttribOverride &lightName diffusionSourceIntensity 0.5
+	lightAttribOverride &lightName intensity 0.9
+	lightAttribOverride &lightName falloffRate .8
+	lightAttribOverride &lightName diffusionSourceIntensity 1
 	lightAttribOverride &lightName diffusionSourceMin  (0,0)
 	lightAttribOverride &lightName diffusionSourceMax (0,0)
-	lightAttribOverride &lightName diffusionSourceFalloff 1
-	lightAttribOverride &lightName diffusionSourceWallIntensityScale 1
-	lightAttribOverride &lightName diffusionSourceFloorIntensityScale .65
+	lightAttribOverride &lightName diffusionSourceFalloff 1.2
+	lightAttribOverride &lightName diffusionSourceWallIntensityScale 1.2
+	lightAttribOverride &lightName diffusionSourceFloorIntensityScale .5
 	lightAttribOverride &lightName diffusionSourceIsDirectional 0
 	lightAttribOverride &lightName diffusionSourceDirectionalFalloff 0
 	lightAttribOverride &lightName coneAngle 60
@@ -177,9 +177,9 @@ define One(lightName)
 enddef
 
 define Bounce(lightName)
-	lightAttribOverride &lightName intensity 0.6
+	lightAttribOverride &lightName intensity 0.8
 	lightAttribOverride &lightName falloffRate 1
-	lightAttribOverride &lightName diffusionSourceIntensity 0.4
+	lightAttribOverride &lightName diffusionSourceIntensity 0.6
 	lightAttribOverride &lightName diffusionSourceFalloff 1
 	lightAttribOverride &lightName diffusionSourceWallIntensityScale 1
 	lightAttribOverride &lightName diffusionSourceFloorIntensityScale .65
@@ -198,7 +198,7 @@ define WallSix(lightName)
 	lightAttribOverride &lightName falloffRate 1
 	lightAttribOverride &lightName diffusionSourceIntensity 1.3
 	lightAttribOverride &lightName diffusionSourceMin  (0,0)
-	lightAttribOverride &lightName diffusionSourceMax (0,-.5)
+	lightAttribOverride &lightName diffusionSourceMax (0,-1)
 	lightAttribOverride &lightName diffusionSourceFalloff 1.1
 	lightAttribOverride &lightName diffusionSourceWallIntensityScale 1.8
 	lightAttribOverride &lightName diffusionSourceFloorIntensityScale 1
@@ -213,7 +213,7 @@ define WallFive(lightName)
 	lightAttribOverride &lightName falloffRate 1
 	lightAttribOverride &lightName diffusionSourceIntensity 1.3
 	lightAttribOverride &lightName diffusionSourceMin  (0,0)
-	lightAttribOverride &lightName diffusionSourceMax (0,-.5)
+	lightAttribOverride &lightName diffusionSourceMax (0,-1)
 	lightAttribOverride &lightName diffusionSourceFalloff 1
 	lightAttribOverride &lightName diffusionSourceWallIntensityScale 1.6
 	lightAttribOverride &lightName diffusionSourceFloorIntensityScale 1
@@ -228,10 +228,10 @@ define WallFour(lightName)
 	lightAttribOverride &lightName falloffRate 1
 	lightAttribOverride &lightName diffusionSourceIntensity 1.2
 	lightAttribOverride &lightName diffusionSourceMin  (0,0)
-	lightAttribOverride &lightName diffusionSourceMax (0,-.5)
-	lightAttribOverride &lightName diffusionSourceFalloff 1.4
-	lightAttribOverride &lightName diffusionSourceWallIntensityScale 1.4
-	lightAttribOverride &lightName diffusionSourceFloorIntensityScale 1
+	lightAttribOverride &lightName diffusionSourceMax (0,-1)
+	lightAttribOverride &lightName diffusionSourceFalloff 1.5
+	lightAttribOverride &lightName diffusionSourceWallIntensityScale 1.3
+	lightAttribOverride &lightName diffusionSourceFloorIntensityScale 0.8
 	lightAttribOverride &lightName diffusionSourceIsDirectional 0
 	lightAttribOverride &lightName diffusionSourceDirectionalFalloff 0
 	lightAttribOverride &lightName coneAngle 60
@@ -243,10 +243,10 @@ define WallFourClam(lightName)
 	lightAttribOverride &lightName falloffRate 1
 	lightAttribOverride &lightName diffusionSourceIntensity 1.2
 	lightAttribOverride &lightName diffusionSourceMin  (0,0)
-	lightAttribOverride &lightName diffusionSourceMax (0,.5)
-	lightAttribOverride &lightName diffusionSourceFalloff 1.4
-	lightAttribOverride &lightName diffusionSourceWallIntensityScale 1.4
-	lightAttribOverride &lightName diffusionSourceFloorIntensityScale 1
+	lightAttribOverride &lightName diffusionSourceMax (0,1)
+	lightAttribOverride &lightName diffusionSourceFalloff 1.5
+	lightAttribOverride &lightName diffusionSourceWallIntensityScale 1.3
+	lightAttribOverride &lightName diffusionSourceFloorIntensityScale 0.8
 	lightAttribOverride &lightName diffusionSourceIsDirectional 0
 	lightAttribOverride &lightName diffusionSourceDirectionalFalloff 0
 	lightAttribOverride &lightName coneAngle 60
@@ -254,14 +254,14 @@ define WallFourClam(lightName)
 enddef
 
 define WallThree(lightName)
-	lightAttribOverride &lightName intensity 1.0
+	lightAttribOverride &lightName intensity 1.1
 	lightAttribOverride &lightName falloffRate 1
 	lightAttribOverride &lightName diffusionSourceIntensity 1.1
 	lightAttribOverride &lightName diffusionSourceMin  (0,0)
-	lightAttribOverride &lightName diffusionSourceMax (0,-.5)
+	lightAttribOverride &lightName diffusionSourceMax (0,-1)
 	lightAttribOverride &lightName diffusionSourceFalloff 2
 	lightAttribOverride &lightName diffusionSourceWallIntensityScale 1.2
-	lightAttribOverride &lightName diffusionSourceFloorIntensityScale 1
+	lightAttribOverride &lightName diffusionSourceFloorIntensityScale 0.8
 	lightAttribOverride &lightName diffusionSourceIsDirectional 0
 	lightAttribOverride &lightName diffusionSourceDirectionalFalloff 0
 	lightAttribOverride &lightName coneAngle 999
@@ -273,7 +273,7 @@ define WallTwo(lightName)
 	lightAttribOverride &lightName falloffRate 1.1
 	lightAttribOverride &lightName diffusionSourceIntensity 1.2
 	lightAttribOverride &lightName diffusionSourceMin  (0,0)
-	lightAttribOverride &lightName diffusionSourceMax (0,-.5)
+	lightAttribOverride &lightName diffusionSourceMax (0,-1)
 	lightAttribOverride &lightName diffusionSourceFalloff 2
 	lightAttribOverride &lightName diffusionSourceWallIntensityScale 1.2
 	lightAttribOverride &lightName diffusionSourceFloorIntensityScale .8
@@ -288,7 +288,7 @@ define WallOne(lightName)
 	lightAttribOverride &lightName falloffRate .8
 	lightAttribOverride &lightName diffusionSourceIntensity 1
 	lightAttribOverride &lightName diffusionSourceMin  (0,0)
-	lightAttribOverride &lightName diffusionSourceMax (0,-.5)
+	lightAttribOverride &lightName diffusionSourceMax (0,-1)
 	lightAttribOverride &lightName diffusionSourceFalloff 1.2
 	lightAttribOverride &lightName diffusionSourceWallIntensityScale 1.2
 	lightAttribOverride &lightName diffusionSourceFloorIntensityScale .5

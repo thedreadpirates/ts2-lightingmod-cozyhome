@@ -2,37 +2,42 @@
 ![Image](assets/heading.png)
 
 ## TABLE OF CONTENTS
-   * [**ABOUT**](#about)
-   * [**FEATURES**](#features)
-   * [**INDOOR LIGHTING CONFIGURATION**](#indoor-lighting-configuration)
-   * [**TIME OF DAY & SEASONS CONFIGURATION**](#time-of-day--seasons-configuration)
-   * [**LIGHTING DIRECTION**](#lighting-direction)
-   * [**WORLD LIT BY FIRE**](#world-lit-by-fire)
-   * [**GAME INSTALLATION FOLDERS**](#game-installation-folders)
-      + [**Ultimate Collection**](#ultimate-collection)
-      + [**Legacy Collection**](#legacy-collection)
-      + [**Disc Version**](#disc-version)
-   * [**LIGHTS FOLDER LOCATION**](#lights-folder-location)
-   * [**DOWNLOAD INSTRUCTIONS**](#download-instructions)
-   * [**INSTALLATION INSTRUCTIONS**](#installation-instructions)
-   * [**SWITCHING LIGHTING DIRECTIONS**](#switching-lighting-directions)
-   * [**UPDATING INSTRUCTIONS:**](#updating-instructions)
-   * [**CHEAT CONFIGURATION**](#current-cheat-configuration)
-   * [**UNINSTALLATION INSTRUCTIONS**](#uninstallation-instructions)
-   * [**OPTIONAL STEPS:**](#optional-steps)
-      + [**Disable Dusk/Dawn Lighting**](#disable-duskdawn-lighting)
-      + [**Use Day CAS Lighting**](#use-day-cas-lighting)
-      + [**Choose a Different Indoor Lighting Style:**](#choose-a-different-indoor-lighting-style)
-   * [**RECOMMENDED MODS**](#recommended-mods)
-   * [**CREDITS**](#credits)
+   * [About](#about)
+   * [Features](#features)
+      + [Indoor Lighting Configuration](#indoor-lighting-configuration)
+      + [Time of Day & Season Configuration](#time-of-day-season-configuration)
+      + [Lighting Direction](#lighting-direction)
+      + [Fire Mode](#fire-mode)
+      + [Lighting Styles](#lighting-styles)
+   * [Game Installation Folders](#game-installation-folders)
+      + [Ultimate Collection](#ultimate-collection)
+      + [Legacy Collection](#legacy-collection)
+      + [Disc Version](#disc-version)
+   * [Lights Folder Location](#lights-folder-location)
+   * [Download Instructions](#download-instructions)
+   * [Installations Instructions](#installations-instructions)
+   * [Switching Lighting Styles](#switching-lighting-styles)
+   * [Switching Default Lighting Style](#switching-default-lighting-style)
+      + [Lighting File Table](#lighting-file-table)
+   * [Updating Instructions](#updating-instructions)
+   * [Current Cheat Configuration](#current-cheat-configuration)
+   * [Uninstallation Instructions](#uninstallation-instructions)
+   * [Optional Steps](#optional-steps)
+      + [Disable Dusk/Dawn Lighting](#disable-duskdawn-lighting)
+      + [Use Day CAS Lighting](#use-day-cas-lighting)
+      + [Choosing a Different Indoor Lighting Style](#choose-a-different-indoor-lighting-style)
+   * [Other Recommended Mods](#other-recommended-mods)
+      + [Must-Have](#must-have)
+      + [Recommended](#recommended)
+   * [Credits](#credits)
 
-## **ABOUT**
+## **About**
 
 ***Cozy Home*** is a lighting mod for the Sims 2 that was borne out of experimenting with different lighting mods and cherry-picking which features I liked in all of them, including sims 2 vanilla lighting. The result is a lighting mod built from the ground-up from vanilla Maxis files and slowly adding in things I liked from other lighting mods. 
 
 As far as where this mod is in the maxis-match to realistic spectrum, this is somewhere in the Maxis-Mix ballpark like Cinema Secrets, but in a different way, a bit more maxis match-leaning.
 
-## **FEATURES**
+## **Features**
 
 - Seasonal states from [Radiance 2.5](https://dreadpirate.tumblr.com/post/170494178792)
 - Night lighting from [Cinema Secrets](https://veronavillequiltingbee.tumblr.com/cinemasecrets)
@@ -48,7 +53,7 @@ As far as where this mod is in the maxis-match to realistic spectrum, this is so
 - Three available Lighting Styles to choose from: Cozy, Cinematic (Radiance/Cinema Secrets-like), Smooth (Maxis Match)
 - Compatibility with The Scriptorium.
 
-### INDOOR LIGHTING CONFIGURATION
+### Indoor Lighting Configuration
 The lighting mod uses the `roomLightingType` value of 5. 
 > NOTE: The Lighting Mod looks best with room lighting types 3 to 5. See the `Choose a Different Indoor Lighting Style` heading for instructions on how to change this
 
@@ -58,7 +63,7 @@ The lighting mod uses the `roomLightingType` value of 5.
 | ![Image](assets/previews/ch_type4_day.png)<br/>**Type 4 - Day**           | ![Image](assets/previews/ch_type4_night.png)<br/>**Type 4 - Night**           |
 | ![Image](assets/previews/ch_type3_day.png)<br/>**Type 3 - Day**           | ![Image](assets/previews/ch_type3_night.png)<br/>**Type 3 - Night**           |
 
-### TIME OF DAY & SEASONS CONFIGURATION
+### Time of Day & Season Configuration
 
 > NOTE: Screenshots use the shaders from my "Recommended Mods" section below.
 
@@ -69,7 +74,7 @@ The lighting mod uses the `roomLightingType` value of 5.
 | ![Image](assets/previews/ch_overcast.png)<br/>**Overcast**    | ![Image](assets/previews/ch_night.png)<br/>**Night**          |
 | ![Image](assets/previews/ch_morning.png)<br/>**Morning/Dawn** | ![Image](assets/previews/ch_evening.png)<br/>**Evening/Dusk** |
 
-### LIGHTING DIRECTION
+### Lighting Direction
 
 There's an option for you to change the lighting direction of the lot depending on where you want the bright part of the lot to be. The sun orientation of a lot is semi-hardcoded at the lot level, so if you're aiming for sun accuracy, or you want a certain side of the lot to catch the sun, you can change the lighting direction. 
 
@@ -82,15 +87,15 @@ There's an option for you to change the lighting direction of the lot depending 
 | ![Image](assets/previews/ch_ld_front.png)<br/>**Front** | ![Image](assets/previews/ch_ld_right.png)<br/>**Right** |
 | ![Image](assets/previews/ch_ld_back.png)<br/>**Back**   | ![Image](assets/previews/ch_ld_left.png)<br/>**Left**   |
 
-### WORLD LIT BY FIRE
+### Fire Mode
 
-For those who play games where white lighting isn't desirable, you can switch to World Lit by Fire mode using one cheat code.
+For those who play games where white lighting isn't desirable, you can switch to Fire Mode, based on World Lit by Fire mode using one cheat code.
 
 |                                                          |                                                                 |
 |----------------------------------------------------------|-----------------------------------------------------------------|
 | ![Image](assets/previews/ch_default.png)<br/>**Default** | ![Image](assets/previews/ch_wlbf.png)<br/>**World Lit by Fire** |
 
-### LIGHTING STYLES
+### **Lighting Styles**
 
 Lighting Styles are sets of lighting definitions and configuration files for different effects depending on what kind of lighting you want. Each style has different lighting definitions, colour configurations, and time of day states.
 
@@ -107,7 +112,7 @@ Each style also has its own World Lit by Fire mode tailored to the lighting as w
 | ![Image](assets/previews/ch_lightingstyle_cinematic_day.png)<br/>**Cinematic - Day** | ![Image](assets/previews/ch_lightingstyle_cinematic_night.png)<br/>**Cinematic - Night** |
 | ![Image](assets/previews/ch_lightingstyle_smooth_day.png)<br/>**Smooth - Day**       | ![Image](assets/previews/ch_lightingstyle_smooth_night.png)<br/>**Smooth - Night**       |
 
-## **GAME INSTALLATION FOLDERS**
+## **Game Installation Folders**
 
 > The way the lighting mod is structured that unlike the vanilla lighting, where there's a `Lighting.txt` and `EPXLighting.nlo` files (sometimes, like in the case for Nightlife, multiple of them) for each EP is that for most of the EPs, every single NLO file is empty except for Base Game (which contains most of the lighting configuration), and the latest EP, which in this case is Mansion and Garden Stuff (where lighting direction controls reside)
 
@@ -140,15 +145,15 @@ Each style also has its own World Lit by Fire mode tailored to the lighting as w
 - Mansion and Garden:
    - `Program Files (x86)\EA GAMES\The Sims 2 Mansion and Garden Stuff` (for all version)
 
-## **LIGHTS FOLDER LOCATION**
+## **Lights Folder Location**
 
 The Lights folder is located under `TSData\Res\Lights` under each Game Installation Folder.
 
-## **DOWNLOAD INSTRUCTIONS**
+## **Download Instructions**
 
 Download and unzip the latest release from the [Releases](https://github.com/thedreadpirates/ts2-lightingmod-cozyhome/releases) page.
 
-## **INSTALLATION INSTRUCTIONS**
+## **Installations Instructions**
 
 **![Image](assets/INSTALLATION_CHART.png)**
 
@@ -170,7 +175,7 @@ These steps assume that you have already extracted the files to an accessible lo
 
 6. Copy the contents of the folder labeled 4.0 to your Downloads folder. These contain the fixed Store lights as well as the required night light map replacements for both lot and neighborhood lighting.
 
-## **SWITCHING LIGHTING STYLES**
+## **Switching Lighting Styles**
 
 To switch lighting directions (Back, Left, Right), type the following cheats:
 
@@ -185,7 +190,7 @@ To switch lighting directions (Back, Left, Right), type the following cheats:
 | Smooth                | `ltSmooth` or `ltSmoothFront`         | `ltSmoothBack`     | `ltSmoothLeft`     | `ltSmoothRight`     |
 | Smooth (Fire Mode)    | `ltSmoothFire` or `ltSmoothFireFront` | `ltSmoothFireBack` | `ltSmoothFireLeft` | `ltSmoothFireRight` |
 
-## **SWITCHING DEFAULT LIGHTING STYLE**
+## **Switching Default Lighting Style**
 
 The mod uses the _**Cozy**_ lighting style by default, but you can switch to any of the other lighting mods by following these steps:
 
@@ -208,7 +213,7 @@ The mod uses the _**Cozy**_ lighting style by default, but you can switch to any
 | Smooth (Fire Mode)    | `Lighting_Smooth_WLBF.txt`    | `Lighting_Smooth_WLBF_Back.txt`    | `Lighting_Smooth_WLBF_Left.txt`    | `Lighting_Smooth_WLBF_Right.txt`    |
 
 
-## **UPDATING INSTRUCTIONS:**
+## **Updating Instructions**
 
 1. To update the lighting mod, delete all files (EXCEPT Scriptorium-related files, if you have them) in your BASE GAME and MANSION & GARDEN Lights folders, then place the updated files inside.
 2. If there are any cheat updates, delete all lines related to lighting from your userStartup.cheat file and replace with the lines in the updated userStartup.cheat.
@@ -283,12 +288,12 @@ alias ltSmoothFireRight "setlotlightingfile Lighting_Smooth_WLBF_Right.txt" "smo
 ##########################
 ```
 
-## **UNINSTALLATION INSTRUCTIONS**
+## **Uninstallation Instructions**
 
 1. Delete the contents of the LIGHTS folder for both BASE GAME and MANSION and GARDEN.
 2. Copy the contents of the [Lights Backup](http://www.mediafire.com/file/elcrtdl6kx0x0sq/Lights_Backup.7z/file) file according to your game setup (UC, Legacy, or Disk).
 
-## **OPTIONAL STEPS:**
+## **Optional Steps**
 
 ### **Disable Dusk/Dawn Lighting**
 
@@ -312,27 +317,33 @@ seti PodiumAreaOff 0
 ```
 4. Save.
 
-### **Choose a Different Indoor Lighting Style:**
-1. Go to your BASE GAME Lighting.txt and look for the following line:
+### **Choose a Different Indoor Lighting Style**
+1. Go to the Lighting.txt corresponding to the lighting mode that you use in the Mansion and Garden folder and look for the following line:
 ```
 setf roomLightingType 5
 ```
 2. You may choose any number between 0 and 7, but I personally recommend anything between 3 and 5 depending on your personal preference.
 3. Save.
 
-## **RECOMMENDED MODS**
+#### Examples
+> - For those who want something like the Cinema Secrets lighting mod, for example, **set the roomLightingType to 3 on the `Lighting_Cinematic.txt` file**.
+> - For those who want something closer to the Maxis Match lighting mod, **set the roomLightingType to 3 or 4 on the `Lighting_Smooth.txt` file**.
 
-First two I highly recommend. The others are nice to have.
+## **Other Recommended Mods**
 
-- [Improved Lot Skirt Shader](https://www.tumblr.com/christaskyy/819029196325191680/ts2-improved-lot-skirt-shader-wip): makes lot skirts in TS2 looking like neighborhood terrain
-- [Improved Water Mod](https://www.tumblr.com/spockthewok/818878027669864448/ts2-water-mod-update?source=share): Fixes mirror reflections and improves on the neighborhood water reflections
+### Must-Have
+- [TS2 Improved Shaders](https://github.com/spockthewok/TS2ImprovedShaders): A patch for The Sims 2 that adds new shader parameters to support extended shader functionality and fixes several shader-related bugs, **including some bugs related to dusk/dawn lighting states**.
+- [TS2 Visible Hood FX](https://github.com/spockthewok/TS2VisibleHoodFX): Allows neighbourhood-exclusive details such as bridges, particle effects, and decals to appear in lot view. Also has various lot skirt shaders that make this compatible with other lot skirt mods like my blue snow fixes or Nopke's Sky Fix.
+- [TS2 Reflective Water](https://github.com/spockthewok/TS2ReflectiveWater): Fixes and improves various aspects of water reflections, inspired by the reflections seen in Castaway Stories.
 - [Accurate Neighborhood Terrain Lighting](https://modthesims.info/d/654677/accurate-neighborhood-terrain-lighting.html): Matches neighborhood lighting with lot lighting. Use the versions suffixed with “-lightingremedy”
+
+### Recommended
 - All of PineappleForest's [light fixes](https://pforestsims.tumblr.com/tagged/ts2%20object%20fixes): The lighting changes were made with these fixes in mind.
-- [Blue Snow Fix](https://dreadpirate.tumblr.com/post/179182314487/blue-snow-no-more-shader-fixes-ive-included): Winter snow at night is blue. Very blue. This fixes it. If you want to use some water mods or roof shader mods, options are also available. I use EA roofs and Voeille's lot and neighborhood water
+- [Slightly Brighter Roofs + No Blue Snow](http://www.simfileshare.net/download/6162441/): Makes roofs brighter and fixes the blue snow at night.
 - [StandardMaterial Shader](https://crispsandkerosene.tumblr.com/post/758562617469091841/extended-standardmaterial-shader-for-the-sims-2). Improves on the shaders that render objects. If you want to use this mod, use this shader instead of the “main” shaders in the snow fixes.
 - [Extended SimStandardMaterial Shader](https://crispsandkerosene.tumblr.com/post/768598233529434112/extended-simstandardmaterial-shader-for-the-sims-2): Has several fixes that enable shiny textures on clothing, etc. I personally use the brighter sims version, but either is great.
 
-## **CREDITS**
+## **Credits**
 - @spookymuffinsims, for your lighting mod that served as a base for the maxis match lighting mod that started this all
 - @nightracer for the base of the Seasonal Lighting Tweaks
 - @criquette-was-here, for the different shader and hood lighting tweaks
@@ -347,3 +358,4 @@ First two I highly recommend. The others are nice to have.
 - Hook, for the lighting direction changes
 - @justmiha97 for some pointers on the portal lighting for dusk and dawn and some ideas for the room lighting
 - @christaskyy for the Lot Skirt shader, which allowed me to finally match the lighting in lot skirt and boundaries
+- @spockthewok for...fixing a lot of shit, that's all

@@ -167,7 +167,7 @@ create SoftAmber(lightingWallArtNouveau_light) # Illuminating Angles
 ############################################################
 
 #9 Antique Metal Sconce #
-create 60WattWALL(lightingWallMoroccan_light)
+create WallFourClam(lightingWallMoroccan_light)
 create Amber(lightingWallMoroccan_light)
 ############################################################
 

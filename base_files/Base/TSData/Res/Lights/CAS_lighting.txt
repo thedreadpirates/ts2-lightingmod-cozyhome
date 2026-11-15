@@ -88,7 +88,7 @@ lightAttribOverride CASPodiumArea_podiumMirrorBounce7 falloffRate 1
 lightAttribOverride CASPodiumArea_podiumMirrorBounce7 diffusionSourceIntensity 0
 
 
-create Zero(CASFamilyArea_objectsOnly1)  
+create Zero(CASFamilyArea_objectsOnly1)
 create Zero(CASPodiumArea_objectsOnly1)
 create WZero(windowTwoTileWideLoftCAS_1E_0_0_N_light)
 create WZero(windowTwoTileWideLoftCAS_0_1S_0_S_light)
@@ -98,8 +98,8 @@ create WZero(windowTwoTileWideLoftCAS_0_0_0_N_light)
 seti FamilyAreaOff 0
 seti PodiumAreaOff 0
 
-if ($FamilyAreaOff) 
-	create Zero(CASFamilyArea_objectsOnly1)  
+if ($FamilyAreaOff)
+	create Zero(CASFamilyArea_objectsOnly1)
 	create Zero(CAS_FamilyAreaKey8)
 	create Zero(CASFamilyArea_Fill8)
 	create Zero(CASFamilyArea_studioBarnDoors_light8)
@@ -119,5 +119,3 @@ if($PodiumAreaOff)
 	create Zero(CASPodiumArea_microHalogenLight1_02)
 	create Zero(CASPodiumArea_microHalogenLight1_03)
 endif
-
-

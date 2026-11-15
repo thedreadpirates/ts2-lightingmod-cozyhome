@@ -51,7 +51,7 @@ create Amber(lightingTableArtNouveau_light) # Inner Light
 create Five(lightingFloorClubLampSwingArm_light)
 create SoftAmber(lightingFloorClubLampSwingArm_light) # Light Orbiter
 
-create Five(lightingFloorClubLampTorch_light)
+create Six(lightingFloorClubLampTorch_light)
 create SoftAmber(lightingFloorClubLampTorch_light) # Burnished Blaze
 
 create Five(lightingFloorLoftLamp_light)
@@ -112,7 +112,7 @@ create ClamLight(lightingWallMoroccan_light)
 create Amber(lightingWallMoroccan_light) # Antique Metal Sconce
 
 create Three(lightingWallColonial_light)
-create WallLight(lightingWallMoroccan_light)
+create WallLight(lightingWallColonial_light)
 create SoftFire(lightingWallColonial_light) # Antebellum
 
 

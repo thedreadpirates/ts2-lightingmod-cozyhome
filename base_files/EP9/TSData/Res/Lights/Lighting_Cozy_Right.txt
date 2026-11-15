@@ -7,9 +7,9 @@ sinclude "Lighting_Cozy.txt"
 # Nighttime
 ####################################################
 lightingState night
-   skylight                       (0.25, 0.25, 0.35)     0.45
-   light sun      (1.25, 0.75,  2.25)    (.35, .35, 0.675)      0.55
-   light sky      (1.9, -1.3, 0.8)    (0.25, 0.25, 0.475)   0.55
+   skylight                       (0.25, 0.25, 0.35)     0.4
+   light sun      (1.25, 0.75,  2.25)    (.35, .35, 0.675)      0.35
+   light sky      (1.9, -1.3, 0.8)    (0.25, 0.25, 0.475)   0.35
 end
 
 
@@ -18,7 +18,7 @@ end
 ####################################################
 lightingState morning
    skylight                          (.5,.4,.2) .4
-   light sun      (-2 ,1.5, .5)     (.92, .6, .4) 1.4   #this is overall power
+   light sun      (-2 ,1.5, .5)     (.92, .65, .3) 1.3   #this is overall power
    light sky      (2, -1.5, .5)     (.92, .7, .4) .54   #2:00
 end
 

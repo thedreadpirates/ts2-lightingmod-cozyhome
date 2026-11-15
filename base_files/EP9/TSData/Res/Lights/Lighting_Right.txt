@@ -2,7 +2,11 @@
 # LIGHTING DEFINITIONS
 ####################################################
 
+# Select which lighting style you want
+# ONLY UNCOMMENT ONE.
 sinclude "Lighting_Cozy_Right.txt"
+# sinclude "Lighting_Cinematic_Right.txt"
+# sinclude "Lighting_Smooth_Right.txt"
 
 ####################################################
 # DO NOT DELETE THIS FILE!

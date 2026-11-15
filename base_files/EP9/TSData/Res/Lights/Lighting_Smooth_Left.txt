@@ -19,7 +19,7 @@ end
 ####################################################
 lightingState morning
    skylight                          (.5,.3,.2) .4
-   light sun      (2 ,-1.5, .5)     (.92, .5, .4) 1.4   #this is overall power
+   light sun      (2 ,-1.5, .5)     (.92, .5, .3) 1.4   #this is overall power
    light sky      (-2, 1.5, .5)     (.92, .6, .4) .54   #2:00
 end
 
