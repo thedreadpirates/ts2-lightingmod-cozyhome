@@ -38,7 +38,7 @@ create SoftWhite(lightingtabledeco_light)
 
 ######### Wall lights ##########
 
-create WallThree(lightingwallmodernasian_light)
+create WallFourClam(lightingwallmodernasian_light)
 create SoftFire(lightingwallmodernasian_light)
 
 create WallFour(lightingwallcubic_light)

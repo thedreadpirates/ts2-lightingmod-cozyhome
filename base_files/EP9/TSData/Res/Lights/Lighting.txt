@@ -1,8 +1,12 @@
 ####################################################
-# LIGHTING DEFINITIONS
+# DEFAULT LIGHTING DEFINITIONS
 ####################################################
 
+# Select which lighting style you want
+# ONLY UNCOMMENT ONE.
 sinclude "Lighting_Cozy.txt"
+# sinclude "Lighting_Cinematic.txt"
+# sinclude "Lighting_Smooth.txt"
 
 ####################################################
 # DO NOT DELETE THIS FILE!

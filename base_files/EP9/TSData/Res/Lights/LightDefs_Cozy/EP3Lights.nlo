@@ -35,7 +35,7 @@ create Amber(lightingTableEuro_light)  #sic
 
 ######### Wall lights ##########
 create WallFive(lightingWallEuroSconce_light)
-create WallFour(lightingWallGallery_light)
+create WallFourClam(lightingWallGallery_light)
 create WallFive(lightingWallSignLamp_light)
 create WallFour(lightingWallStorybookSconce_light)
 create WallFour(lightingWallVanity_light)

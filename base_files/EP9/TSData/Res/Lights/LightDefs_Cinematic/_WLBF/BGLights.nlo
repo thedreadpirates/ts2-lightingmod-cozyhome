@@ -19,7 +19,7 @@ create bigREDbulb(lightingTableBigBulbRed_toplight)
 ############ TABLE LIGHTS #########################
 #1 Pix-Arm Drafting Table Lamp #
 create officetablelamp(lightingTableValue1_light)
-create candleflame(lightingTableValue1_light)
+screate candleflame(lightingTableValue1_light)
 ######################################################################
 
 #2 The Watt is It Table Lamp #
@@ -184,7 +184,7 @@ create candleflame(wallDeckSconce_point)
 ############################################################
 
 #13 Torcher Luminescence Sconce #
-create 60WattWALL4(lightingWallClubSconce_light)
+create 60WattWALL(lightingWallClubSconce_light)
 create matchflame(lightingWallClubSconce_light)
 ############################################################
 

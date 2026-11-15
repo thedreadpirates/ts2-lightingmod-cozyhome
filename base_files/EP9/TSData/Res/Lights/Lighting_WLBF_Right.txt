@@ -1,8 +1,12 @@
 ####################################################
-# LIGHTING DEFINITIONS
+# DEFAULT LIGHTING DEFINITIONS - Fire Mode (Right)
 ####################################################
 
+# Select which lighting style you want
+# ONLY UNCOMMENT ONE.
 sinclude "Lighting_Cozy_WLBF_Right.txt"
+# sinclude "Lighting_Cinematic_WLBF_Right.txt"
+# sinclude "Lighting_Smooth_WLBF_Right.txt"
 
 ####################################################
 # DO NOT DELETE THIS FILE!
